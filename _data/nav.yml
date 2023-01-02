@@ -1,0 +1,12 @@
+# component content
+
+- name: Eric Bell
+  link: /
+- name: Portfolio
+  link: /portfolio
+- name: Speaking
+  link: /talks
+- name: Blog
+  link: /blog
+- name: About
+  link: /about
