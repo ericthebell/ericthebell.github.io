@@ -1,6 +1,7 @@
 ---
 title: Enterprise & Platform & Regulation, oh my
-talk: Challenges in Product Design: Enterprise products, platform layers, and regulated industries
+talk: > 
+    Challenges in Product Design: Enterprise products, platform layers, and regulated industries
 context: Groktalk series, presentation + Q&A session
 location: Armenia
 date-YYYY-Mmm: 2021 Nov
