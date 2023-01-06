@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  {% feed_meta %}
+    {% seo %}
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+  </head>
+  <body>
+    {% include nav.md %}
+    <header>
+      <h1>{{ page.header }}</h1>
+    </header>
+    {{ content }}
+    <footer>
+      <p>Last updated {{ site.time | date: "%Y" }}</p>
+    </footer>
+  </body>
+</html>
