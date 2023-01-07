@@ -19,20 +19,31 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Eric Bell | Holistic product & service design
-description: Holistic product & service design, making complexity feel simple.
+description: > # It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  Holistic product & service design, making complexity feel simple.
 
 url: https://ericthebell.github.io # (optional) https://example.com, defaults to http://localhost:4000 in development
 permalink: /:categories/:title # how your URLs are built, see https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles
 
 theme: minima # look for themes on https://github.com/topics/jekyll-theme and https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme
 
-twitter_username: >-
-  @ericthebell@indieweb.social
-github_username: ericthebell
+  # generate social links in footer
+  social_links:
+    - { platform: github,         user_url: "https://github.com/jekyll/ericthebell" }
+    - { platform: instagram,      user_url: "https://www.instagram.com/ericthebell" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+    - { platform: mastodon,       user_url: "https://indieweb.social/@ericthebell" }
 
 # timezone: America/Los_Angeles # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Google Analytics
 google_analytics: G-JL11R2DP8Z
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
 
 collections: # blog is automatic collection of posts
   roles:
