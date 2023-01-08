@@ -1,26 +1,6 @@
-# Jekyll main configuration file
-# See https://jekyllrb.com/docs/configuration/ to further customize this file
-# Defaults settings https://jekyllrb.com/docs/configuration/#default-configuration
-
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: "Eric Bell holistic product and service design"
 description: > # It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  "Holistic product and service design, making complexity feel simple."
+  Holistic product and service design, making complexity feel simple.
 
 url: "https://ericthebell.github.io" # (optional) https://example.com, defaults to http://localhost:4000 in development
 permalink: "/:categories/:title" # how your URLs are built, see https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles
@@ -29,7 +9,6 @@ theme: minima # look for themes on https://github.com/topics/jekyll-theme and ht
 
   # generate social links in footer
   social_links:
-    - { platform: github,         user_url: "https://github.com/jekyll/ericthebell" }
     - { platform: instagram,      user_url: "https://www.instagram.com/ericthebell" }
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
     - { platform: mastodon,       user_url: "https://indieweb.social/@ericthebell" }
