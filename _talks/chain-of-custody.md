@@ -1,7 +1,6 @@
 ---
-<<<<<<<< HEAD:_talks/enterprise-platform-regulation.md
 title: Enterprise & Platform & Regulation, oh my
-talk: > 
+talk: >
     Challenges in Product Design: Enterprise products, platform layers, and regulated industries
 context: Groktalk series, presentation + Q&A session
 location: Armenia
@@ -18,7 +17,6 @@ date-YYYY-Mmm:
 excerpt: 
 link: 
 label: 
->>>>>>>> 14f8c0e387a9f5600cb4ea38f191112007d20b0a:_talks/chain-of-custody.md
 thumbnail: 
 categories: #one-shot #talk #portfolio
 ---
