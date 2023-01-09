@@ -1,15 +1,4 @@
 ---
-<<<<<<<< HEAD:_talks/enterprise-platform-regulation.md
-title: Enterprise & Platform & Regulation, oh my
-talk: > 
-    Challenges in Product Design: Enterprise products, platform layers, and regulated industries
-context: Groktalk series, presentation + Q&A session
-location: Armenia
-date-YYYY-Mmm: 2021 Nov
-excerpt: Product design can be a conceptually simple iterative process of observation, prototyping, and testing. Yet many factors can add challenges to this otherwise straightforward feedback loop, including designing for enterprise companies, configurable platforms, or regulated industries. I talk about the challenges of those contexts with some examples from Vineti.
-link: https://www.youtube.com/watch?v=MzvkU6IBFuM
-label: Watch the talk >
-========
 title: 
 talk: 
 context: 
@@ -18,11 +7,9 @@ date-YYYY-Mmm:
 excerpt: 
 link: 
 label: 
->>>>>>>> 14f8c0e387a9f5600cb4ea38f191112007d20b0a:_talks/chain-of-custody.md
 thumbnail: 
 categories: #one-shot #talk #portfolio
 ---
-
 
 # Enterprise & Platform & Regulation, oh my
 
