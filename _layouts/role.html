@@ -5,9 +5,17 @@ layout: default
 <h1>{{ page.company }}</h1>
 <h2>{{ page.position }}</h2>
 
+industry
+company
+
+team
+role
+
+impact / exit
+
 {{ content }}
 
-<h2>Projects</h2>
+<h2>Projects / Cases</h2>
 <ul>
   {% assign filtered_posts = site.projects | where: 'position', page.company %}
   {% for post in filtered_posts %}
