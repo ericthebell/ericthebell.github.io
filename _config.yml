@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Eric Bell holistic product and service design"
+title: Eric Bell | Holistic product & service design
 description: > # It will appear in your document head meta (for Google search results) and in your feed.xml site description.
   Holistic product and service design, making complexity feel simple.
 
@@ -27,8 +27,8 @@ permalink: "/:categories/:title" # how your URLs are built, see https://jekyllrb
 
 theme: minima # look for themes on https://github.com/topics/jekyll-theme and https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme
 
-  # generate social links in footer
-  social_links:
+# generate social links in footer
+social_links:
     - { platform: instagram,      user_url: "https://www.instagram.com/ericthebell" }
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
     - { platform: mastodon,       user_url: "https://indieweb.social/@ericthebell" }
