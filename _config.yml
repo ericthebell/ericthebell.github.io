@@ -26,7 +26,7 @@ domain: ericthebell.github.io       # if you want to force HTTPS, specify the do
 url: https://ericthebell.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 permalink: "/:categories/:title" # how your URLs are built, see https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles
 
-theme: jekyll/minima # look for themes on https://github.com/topics/jekyll-theme and https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme
+remote_theme: pages-themes/slate@v0.2.0 # look for themes on https://github.com/topics/jekyll-theme and https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme
 
 # generate social links in footer
 social_links:
@@ -77,6 +77,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Filtering Content
 show_drafts         : null
