@@ -18,21 +18,52 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Eric Bell | Holistic product & service design
+description: > # It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  Holistic product and service design, making complexity feel simple.
+# email: your-email@example.com
+
+url: "https://ericthebell.github.io" # (optional) https://example.com, defaults to http://localhost:4000 in development
+permalink: "/:categories/:title" # how your URLs are built, see https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles
+
+theme: minima # look for themes on https://github.com/topics/jekyll-theme and https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme
+
+google_analytics: G-JL11R2DP8Z
+
+twitter_username: ericthebell
+instagram_username: ericthebell
+github_username:  ericthebell
+mastodon_username: @ericthebell@indieweb.social
+
+collections: # blog is automatic collection of posts
+  roles:
+    output: true # collection per job, e.g. Vineti page
+  talks:
+    output: true # collection of all talks
+
+defaults:
+  - scope:
+      path: ""
+      type: "roles"
+    values:
+      layout: "role"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
