@@ -62,8 +62,9 @@ google_analytics: G-JL11R2DP8Z
 collections: # blog is automatic collection of posts
   roles:
     output: true # collection per job, e.g. Vineti page
-  talks:
-    output: true # collection of all talks
+  tags: # https://blog.lunarlogic.io/2019/managing-tags-in-jekyll-blog-easily/
+    output: true # page for each post, talk, or project tag
+    permalink: tags/:path/
 
 defaults:
   - scope:
