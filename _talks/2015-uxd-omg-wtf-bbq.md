@@ -5,7 +5,7 @@ permalink: parsing-ux-design
 summary: Breaking down UX titles and design process, a presentation and Q&A session at <a href="https://href.li/?http://www.createtogether.am/">#createTogether conference</a> in Yerevan, Armenia.
 
 formal: UXD OMG WTF BBQ
-context: "#createtogether" conference in Yerevan, Armenia
+context: "#createtogether conference in Yerevan, Armenia"
 date: 2015 Oct
 label: Check out the deck >
 link: www.slideshare.net/ericthebell/ux-design-breakdown-and-qa-session-createtogether

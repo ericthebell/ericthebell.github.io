@@ -7,8 +7,7 @@ url: /portfolio
 # Some of my past work
 
 <ul>
-  {% assign sortedPosts = site.roles | sort: 'date' %}
-  {% for role in site.roles %}
+  {% for role in site.roles reversed %}
     <li>
       <h2><a href="{{ role.url }}">{{ role.company }}</a></h2>
       <h3>{{ role.position }}</h3>
