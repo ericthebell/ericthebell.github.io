@@ -8,6 +8,7 @@ permalink: /blog
 
 <ul>
   {% for post in site.posts %}
+  {% assign sortedPosts = site.posts | sort: 'date' %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}

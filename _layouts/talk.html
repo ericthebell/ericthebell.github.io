@@ -5,14 +5,12 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <p>{{ page.context }}<br/>
-{{ page.date-YYYY-Mmm | date: "%Y %b" }}</p>
+{{ page.date | date: "%Y %b" }}</p>
 
-<p><i>{{ page.summary }}</i></p>
+<h3>{{ page.formal}} </h3>
 
 {{ content }}
 
 <div><a href="{{ page.link }}">{{ page.label }}</a></div>
-
-{{ page.thumbnail }}
 
 {{ page.tags }}

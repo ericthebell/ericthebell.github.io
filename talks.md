@@ -10,8 +10,9 @@ url: /talks
   {% for talk in site.talks %}
     <li>
       <h2><a href="{{ talk.url }}">{{ talk.title }}</a></h2>
-      <h3>{{ talk.formal }}</h3>
-      <p>{{ talk.summary | markdownify }}</p>
+      <p>{{ talk.date | date: "%Y %b" }}<br/>
+      {{ talk.summary | markdownify }}</p>
+      <div class="thumbnail">{{ page.thumbnail }}</div>
     </li>
   {% endfor %}
 </ul>

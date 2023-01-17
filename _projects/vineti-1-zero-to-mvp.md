@@ -1,7 +1,8 @@
 ---
+layout: project
 title: Zero to MVP
 company: Vineti
-categories: 
+tags: 
 ---
 
 ## Project

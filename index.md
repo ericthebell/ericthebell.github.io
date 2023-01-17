@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Eric Bell | Holistic product & service design
-header: Eric Bell
+title: Eric Bell
+header: Eric Bell | Holistic product & service design
 ---
 
 # {{ page.header }}
