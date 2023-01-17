@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Sunsets from trains
+title: blog
+header: Sunsets from trains
 permalink: /blog
 ---
 

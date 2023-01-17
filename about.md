@@ -1,6 +1,9 @@
 ---
 layout: page
-title: About
+title: about
+header: About
+# nav_include: yes
+# nav_order: 5
 permalink: /about/
 ---
 

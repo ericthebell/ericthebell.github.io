@@ -5,6 +5,8 @@
 layout: default
 title: Eric Bell
 header: Eric Bell | Holistic product & service design
+nav_include: no
+nav_order: 
 ---
 
 # {{ page.header }}

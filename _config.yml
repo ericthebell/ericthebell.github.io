@@ -33,9 +33,15 @@ description: > # It will appear in your document head meta (for Google search re
 
 url: "https://ericthebell.github.io" # (optional) https://example.com, defaults to http://localhost:4000 in development
 permalink: "/:categories/:title" # how your URLs are built, see https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles
+logo: eric_viki.png
 
 # theme: minima # look for themes on https://github.com/topics/jekyll-theme and https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme
 remote_theme: jekyll/minima
+
+header_pages:
+  - portfolio.md
+  - talks.md
+  - about.md
 
 # 3.0 notes
 # Also, I can specify the skin now!
@@ -81,10 +87,12 @@ collections: # blog is automatic collection of posts
     output: true # collection per job, e.g. Vineti page
   talks:
     output: true # collection per talk
-  tags: # https://blog.lunarlogic.io/2019/managing-tags-in-jekyll-blog-easily/
+  tags: 
     output: true # page for each post, talk, or project tag
     permalink: tags/:path/
-
+    # try https://blog.lunarlogic.io/2019/managing-tags-in-jekyll-blog-easily/
+    # or https://jameshfisher.com/2019/05/05/how-can-i-add-tags-to-a-jekyll-blog/
+  
 # Build settings
 
 plugins:

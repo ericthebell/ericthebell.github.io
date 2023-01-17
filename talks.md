@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Speaking & Events
+title: talks
+header: Speaking & Events
 # url: /talks
 ---
 

@@ -1,0 +1,10 @@
+---
+---
+
+.site-logo {
+  border-radius: 50%
+  }
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";

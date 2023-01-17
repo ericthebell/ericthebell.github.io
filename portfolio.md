@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Portfolio
+title: portfolio
+header: Portfolio
 url: /portfolio
 ---
 
