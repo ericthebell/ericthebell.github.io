@@ -11,7 +11,7 @@ header: Eric Bell | Holistic product & service design
 ### Info nerd, holistic product & service design. Making complexity feel simple.
 
 Some intro text from About.
-{% for page{{ page.excerpt }} from about
+page.excerpt from about
 
 ## Portfolio summary block
 
