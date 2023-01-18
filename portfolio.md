@@ -13,7 +13,7 @@ url: /portfolio
       <h2><a href="{{ role.url }}">{{ role.company }}</a></h2>
       <h3>{{ role.position }}</h3>
       <p>{{ role.dates }}<br/>
-      <p>{{ role.content | markdownify }}</p>
+      {{ role.content | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>

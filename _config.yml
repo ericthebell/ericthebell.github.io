@@ -26,9 +26,9 @@ author:
   name: Eric Bell
   email: 
 
-title: Eric Bell | Holistic product & service design
+title: Eric Bell
 description: > # It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  Holistic product and service design, making complexity feel simple.
+  Holistic product and service design, making complexity feel simple. <a href="/assets/EricBell_Resume_2022.pdf">Resume (PDF)</a>
 # email: your-email@example.com
 
 url: "https://ericthebell.github.io" # (optional) https://example.com, defaults to http://localhost:4000 in development
@@ -52,8 +52,9 @@ minima:
     - { platform: mastodon,  user_url: "https://indieweb.social/@ericthebell" }
     - { platform: linkedin, user_url: "https://linkedin.com/in/ericthebell" }
     - { platform: instagram, user_url: "https://instagram.com/ericthebell" }
-    - { platform: github, user_url: "https://github.com/ericthebell" }
     - { platform: twitter, user_url: "https://twitter.com/ericthebell" }
+    - { platform: github, user_url: "https://github.com/ericthebell" }
+    - { platform: pdf, user_url: "assets/EricBell_Resume_2022.pdf"}
     #twitter: ericthebell
     #github: ericthebell
     #instagram: ericthebell
