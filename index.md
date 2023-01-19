@@ -13,7 +13,7 @@ header: Holistic product & service design
 Some intro text from About.
 
 simple include?
-<!-- include_relative about.md excerpt -->
+<!-- include_relative about.md | excerpt -->
 
 recursive one page?
 {% for page in site.pages %}

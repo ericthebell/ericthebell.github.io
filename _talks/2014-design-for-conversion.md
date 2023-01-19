@@ -6,9 +6,9 @@ summary: Short presentation on common conversion flow patterns and approaches fo
 formal: 
 context: Speaker for an event hosted by Orange Hive accelerator in Singapore.
 date: 2014 Mar
+thumbnail: [image]
 label: test-label
 link: test-link
-thumbnail: 
 tags: oneshot talk Viki
 ---
 
