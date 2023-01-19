@@ -3,7 +3,8 @@ layout: default
 title: about
 header: A little about me
 # permalink: /about
-excerpt: I'm Eric, 
+home_section: true
+excerpt: About page excerpt test for index page inclusion
 ---
 
 # {{ page.header }}

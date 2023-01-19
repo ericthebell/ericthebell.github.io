@@ -4,14 +4,28 @@
 
 layout: default
 title: Eric Bell
-header: Eric Bell | Holistic product & service design
+header: Holistic product & service design
 ---
 
-# {{ page.title }}
-### Info nerd, holistic product & service design. Making complexity feel simple.
+# {{ page.header }}
+### Making complexity feel simple.
 
 Some intro text from About.
-page.excerpt from about
+
+simple include?
+<!-- include_relative about.md excerpt -->
+
+recursive one page?
+{% for page in site.pages %}
+	<p>{{ page.excerpt }}</p>
+{% endfor %}
+
+metadata excerpt?
+{% assign home_section = site.pages | where:'home_section','true' %}
+{% for page in home_section %}
+	{{ page.excerpt | escape }}
+{% endfor %}
+
 
 ## Portfolio summary block
 
@@ -32,7 +46,8 @@ Look at all my cool work.
 See things I've presented on.
 
 <div>
-{% for talk in site.talks reversed limit: 1 %}
+{% assign sorted = site.talks | sort: 'date' | reversed %}
+{% for talk in site.talks limit: 1 %}
 	<h2><a href="{{ talk.url }}">{{ talk.title }}</a></h2>
 	<p>{{ talk.date | date: "%Y %b" }}<br/>
 	{{ talk.summary | markdownify }}</p>
