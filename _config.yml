@@ -49,9 +49,9 @@ minima:
   skin: dark
   date_format: "%Y-%m-%d %H:%M"
   social_links:
-    - { platform: mastodon,  user_url: "https://indieweb.social/@ericthebell" }
     - { platform: linkedin, user_url: "https://linkedin.com/in/ericthebell" }
     - { platform: instagram, user_url: "https://instagram.com/ericthebell" }
+    - { platform: mastodon,  user_url: "https://indieweb.social/@ericthebell" }
     - { platform: twitter, user_url: "https://twitter.com/ericthebell" }
     - { platform: github, user_url: "https://github.com/ericthebell" }
     - { platform: pdf, user_url: "assets/EricBell_Resume_2022.pdf"}
@@ -68,12 +68,12 @@ google_analytics: G-JL11R2DP8Z
 
 defaults:
   - scope:
-      path: ""
+      path: "_roles"
       type: "roles"
     values:
       layout: "role"
   - scope:
-      path: ""
+      path: "_projects"
       type: "projects"
     values:
       layout: "project"
@@ -86,6 +86,8 @@ defaults:
 collections: # blog is automatic collection of posts
   roles:
     output: true # collection per job, e.g. Vineti page
+  projects:
+    output: true # collection per ...?
   talks:
     output: true # collection per talk
   tags: 

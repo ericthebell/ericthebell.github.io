@@ -4,24 +4,22 @@ layout: default
 
 <h1>{{ page.company }}</h1>
 <h2>{{ page.position }}</h2>
-
-<p>{{ page.tags }}</p>
-
-industry
-company
-
-team
-role
-
-impact exit
+<p>{{ page.industry }}</p>
+<p>Impact: {{ page.impact }}</p>
+<p>Exit: {{ page.exit }}</p>
 
 {{ content }}
 
-<h2>Projects / Cases</h2>
+<p>{{ page.tags }}</p>
+
+<h2>{{ page.company}} projects</h2>
+
 <ul>
-  {% assign filtered_posts = site.projects | where: 'company', page.company %}
-  {% for post in filtered_posts %}
-    <li><a href="{{ project.url }}">{{ project.title }}</a>
+  {% assign role_project = site.projects | where: 'company', page.company %}
+  {% for project in role_project %}
+    <li><h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+      Context: {{ project.project | markdownify }}
+      Impact {{ project.impact }}</p>
     </li>
   {% endfor %}
 </ul>

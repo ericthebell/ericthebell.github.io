@@ -21,19 +21,19 @@
 
 ## collections
 
-*Repeating patterns. The portfolio consists of a series of `projects`, which can be bundled together into a summary of each `role`. First pass may be manual role pages, summarized on the Portfolio page.*
+*Repeating patterns. The portfolio consists of a series of `projects`, which can be bundled together into a summary of each `role`. First pass may be manual role pages, summarized on the Portfolio page. Eventually want collections page for each `tag`.*
 
-- _posts
-- _projects
-- _roles
-- _talks
+- `_posts`
+- `_projects`
+- `_roles`
+- `_talks`
 
 ## structure & style
 
-- _data (component content)
-- _includes (component structure)
-- _layouts (default page structures)
-- _sass
+- `_data (component content)`
+- `_includes (component structure)`
+- `_layouts (default page structures)`
+- `_sass`
 
 assets
 
