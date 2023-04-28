@@ -7,7 +7,7 @@ summary: A talk on enterprise, platform, and regulatory challenges in product de
 formal: >
     Challenges in Product Design: Enterprise products, platform layers, and regulated industries
 context: Groktalk series, hosted by <a href="https://href.li/?https://www.groksmith.co/">Groksmith</a> in Yerevan, Armenia
-date: 2021 Nov
+date: 2021-11-01
 thumbnail: <iframe width="560" height="315" src="https://www.youtube.com/embed/MzvkU6IBFuM?t=101" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 label: Watch the talk >
 link: https://youtu.be/MzvkU6IBFuM?t=101

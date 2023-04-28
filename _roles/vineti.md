@@ -3,7 +3,8 @@ layout: role
 company: Vineti
 permalink: /Vineti
 position: Principal Product Designer
-dates: 2016-2022
+date: 2022-08-23
+dateshow: 2016-2022
 tags: startup enterprise healthcare
 ---
 

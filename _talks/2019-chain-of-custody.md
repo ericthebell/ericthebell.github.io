@@ -6,7 +6,8 @@ summary: Short talk at a Vineti-hosted health tech event, on some challenges and
 
 formal: Using Service Design to Solve Physical Custody for Personalized Cancer Treatments
 context: Design 4 Healthcare lightning talks event at Vineti's offices in San Francisco
-date: 2019 Nov
+date: 2019-11-01
+dateshow: 2019 Nov
 thumbnail: [image]
 label: 
 link: 

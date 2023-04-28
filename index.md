@@ -8,37 +8,28 @@ header: Holistic product & service design
 ---
 
 # {{ page.header }}
-### Making complexity feel simple.
 
-Some intro text from About.
+## Making complexity feel simple.
 
-simple include?
-<!-- include_relative about.md | excerpt -->
+About page excerpt.
 
-recursive one page?
-{% for page in site.pages %}
-	<p>{{ page.excerpt }}</p>
-{% endfor %}
-
-metadata excerpt?
-{% assign home_section = site.pages | where:'home_section','true' %}
-{% for page in home_section %}
-	{{ page.excerpt | escape }}
-{% endfor %}
-
+<div>
+{% assign about_excerpt = site.pages | where: "name", "about.md" | first %}
+{{ about_excerpt.excerpt }}
+</div>
 
 ## Portfolio summary block
 
 Look at all my cool work.
 
 <div>
-{% assign sorted = site.roles | sort: 'date' | reversed %}
-{% for role in site.roles limit: 1 %}
-	<h2><a href="{{ role.url }}">{{ role.company }}</a></h2>
-	<h3>{{ role.position }}</h3>
-	<p>{{ role.dates }}<br/>
-	{{ role.content | markdownify }}</p>
-{% endfor %}
+{% assign last_role = site.roles | sort: "date" | reverse | first %}
+{% if last_role %}
+	<h2><a href="{{ last_role.url }}">{{ last_role.company }}</a></h2>
+	<h3>{{ last_role.position }}</h3>
+	<p>{{ last_role.date | date: "%Y %b" }}<br/>
+	{{ last_role.content | markdownify }}</p>
+{% endif %}
 </div>
 
 ## Talks summary block
@@ -46,11 +37,10 @@ Look at all my cool work.
 See things I've presented on.
 
 <div>
-{% assign sorted = site.talks | sort: 'date' | reversed %}
-{% for talk in site.talks limit: 1 %}
-	<h2><a href="{{ talk.url }}">{{ talk.title }}</a></h2>
-	<p>{{ talk.date | date: "%Y %b" }}<br/>
-	{{ talk.summary | markdownify }}</p>
-	<div class="thumbnail">{{ page.thumbnail }}</div>
-{% endfor %}
+{% assign recent_talk = site.talks | sort: "date" | reverse | first %}
+{% if recent_talk %}
+    <h2><a href="{{ recent_talk.url }}">{{ recent_talk.title }}</a></h2>
+    <p>{{ recent_talk.date | date: "%Y %b" }}<br/>
+    {{ recent_talk.summary | markdownify }}</p>
+{% endif %}
 </div>

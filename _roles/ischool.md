@@ -2,8 +2,9 @@
 layout: role
 company: iSchool
 permalink: 
-position: starving grad student
-dates: 2010
+position: Starving grad student
+date: 2010-05-31
+dateshow: 2008-2010
 tags: startup enterprise healthcare
 ---
 
