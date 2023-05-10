@@ -1,11 +1,13 @@
 ---
 layout: default
-title: blog
+title: thoughts
 header: Sunsets from trains
 permalink: /blog
 ---
 
-# Latest thoughts
+# {{ page.header }}
+
+## Latest thoughts
 
 <ul>
   {% for post in site.posts %}
@@ -19,13 +21,6 @@ permalink: /blog
 
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}

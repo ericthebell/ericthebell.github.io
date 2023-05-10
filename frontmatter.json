@@ -1,0 +1,147 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "company",
+          "name": "company",
+          "type": "string"
+        },
+        {
+          "title": "logo",
+          "name": "logo",
+          "type": "string"
+        },
+        {
+          "title": "tagline",
+          "name": "tagline",
+          "type": "string"
+        },
+        {
+          "title": "position",
+          "name": "position",
+          "type": "string"
+        },
+        {
+          "title": "location",
+          "name": "location",
+          "type": "string"
+        },
+        {
+          "title": "dateshow",
+          "name": "dateshow",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.preview.host": "http://localhost:4000",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/_roles",
+      "title": "_roles"
+    },
+    {
+      "path": "[[workspace]]/_posts",
+      "title": "_posts"
+    },
+    {
+      "path": "[[workspace]]/_talks",
+      "title": "_talks"
+    },
+    {
+      "path": "[[workspace]]/_site",
+      "title": "_site"
+    },
+    {
+      "path": "[[workspace]]/_projects"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    " ",
+    "O",
+    "S",
+    "V",
+    "a",
+    "b",
+    "c",
+    "e",
+    "enterprise",
+    "g",
+    "h",
+    "healthcare",
+    "i",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "startup",
+    "t",
+    "u"
+  ],
+  "frontMatter.taxonomy.categories": [
+    " ",
+    "a",
+    "d",
+    "e",
+    "j",
+    "k",
+    "l",
+    "p",
+    "t",
+    "u",
+    "y"
+  ]
+}

@@ -28,7 +28,7 @@ Look at all my cool work.
 	<h2><a href="{{ last_role.url }}">{{ last_role.company }}</a></h2>
 	<h3>{{ last_role.position }}</h3>
 	<p>{{ last_role.date | date: "%Y %b" }}<br/>
-	{{ last_role.content | markdownify }}</p>
+	{{ last_role.excerpt | markdownify }}</p>
 {% endif %}
 </div>
 

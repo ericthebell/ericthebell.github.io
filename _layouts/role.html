@@ -18,8 +18,8 @@ layout: default
   {% assign role_project = site.projects | where: 'company', page.company %}
   {% for project in role_project %}
     <li><h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-      Context: {{ project.project | markdownify }}
-      Impact {{ project.impact }}</p>
+      Context: {{ project.context | markdownify }}
+      Impact: {{ project.impact }}</p>
     </li>
   {% endfor %}
 </ul>

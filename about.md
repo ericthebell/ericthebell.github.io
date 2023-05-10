@@ -19,13 +19,13 @@ Service design is about creating that holistic experience across disparate produ
 
 **What I bring** is a holistic vision of a cross-product experience, and the facilitation to unify a complicated cross-department experience, as well as design mentorship across the team to support those efforts.
 
-**I've shipped** three startups from soup to nuts, optimized existing products, and I facilitated workshops to align stakeholders & visualize product strategy. I have a bad habit of sticking through a project until it succeeds or dies under my feet.
+**I've shipped** three startups from soup to nuts, optimized existing products, and I visualizing and aligning product strategy and execution. I have a bad habit of sticking through a project until it succeeds or dies under my feet.
 
 <img src="/assets/images/career-timeline-simple.png">
 
 The last six years I spent leading the design team at [Vineti](https://vineti.com/), where we built a platform to orchetsrate the next generation of cell nd gene therapy treatments. Before that I directed product design on the Rakuten Manga project, a platform for fans to translate digital comics into their own language, and I formed and facilitated the design team at Viki, a Rakuten subsidiary. I've worked at a small social media startup, design agencies in Tokyo and Seattle, and designed the Japanese input methods for Microsoft's erstwhile Windows Phone 7.
 
-**Currently I'm looking** for *complex system & service problems* to work on, an *established design team* to mentor & learn from, who are *geographically distributed* with intentional onsites.
+**Currently I'm looking** for *complex system & service problems* to work on, an *established design team* to learn from & mentor, who are *geographically distributed* with intentional onsites.
 
 <!-- **I design things** based on the people who use them. I’m particularly good at wrapping my head around novel systems and making complexity understandable to its audience. I see most of these situations as information problems. My specialties are Interaction Design and Information Architecture. I approach products, services, and cross-channel experiences holistically. -->
 

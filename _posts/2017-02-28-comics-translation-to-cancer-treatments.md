@@ -1,12 +1,14 @@
 ---
+layout: post
 title: Comics translation to cancer treatments, a year in review
 date: 2017-Feb-28 18:52:00 -000
-categories: #health-tech #design #startups
+summary: For my work life, 2016 was a year of transitions and contrasts
+tags: startup healthtech career
 ---
 
 For my work life, 2016 was a year of transitions and contrasts.
 
-I began 2016 working on a crowdsourced comic book translation platform with a team spread across three continents, as many primary languages, and non-overlapping work hours to boot. I ended it on a focused team from multiple industries, spread across a mere single coast of the U.S., working on a software platform for orchestrating cell therapy cancer treatments.
+I began 2016 working on a [crowdsourced comic book translation platform](https://play.google.com/store/apps/details?id=com.aquafadas.fanga.reader) with a team spread across three continents, as many primary languages, and non-overlapping work hours to boot. I ended it on a focused team from multiple industries, spread across a mere single coast of the U.S., working on a [software platform](http://www.vineti.com/) for orchestrating [cell therapy cancer treatments](https://www.lls.org/treatment/types-of-treatment/immunotherapy/chimeric-antigen-receptor-car-t-cell-therapy).
 
 ## Country vs industry culture
 

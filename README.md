@@ -11,20 +11,23 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [x] about content
 - [x] add talks page
 - [x] talk pages content
+- [x] portfolio pages seed content
+- [x] role pages seed content
 - [x] home sections excerpts
 - [x] talk/role list order on Home
-- [x] speaker page content linking
+- [x] import content from ericthebell.info
+- [ ] customize and/or replace theme, templates (Tufte theme?)
+- [ ] typography
+- [ ] talks and portfolio list styling
 - [ ] role page templating
 - [ ] role pages content
 - [ ] projects pages content
+- [ ] thumbnails to talks list
 - [ ] Collections for `tag` pages
 - [ ] Collections for role project groupings?
-- [ ] customize and/or replace theme, templates (Tufte theme?)
-- [ ] talks and portfolio list styling
-- [ ] typography
-- [ ] thumbnails to talks list
 - [ ] content management for Jekyll collections
 - [ ] add a blog?
+- [ ] redirect ericthebell.com
 
 ## config
 

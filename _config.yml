@@ -20,8 +20,7 @@
 
 # 3.0 notes
 # the author field works a bit differently now
-#author: Taylor Talkington
-#email: "taylor.talkington@gmail.com"
+
 author:
   name: Eric Bell
   email: 
@@ -41,12 +40,13 @@ remote_theme: jekyll/minima
 header_pages:
   - portfolio.md
   - talks.md
+#  - blog.md
   - about.md
 
 # 3.0 notes
 # Also, I can specify the skin now!
 minima:
-  skin: dark
+  skin: classic
   date_format: "%Y-%m-%d %H:%M"
   social_links:
     - { platform: linkedin, user_url: "https://linkedin.com/in/ericthebell" }
@@ -96,6 +96,15 @@ collections: # blog is automatic collection of posts
     # try https://blog.lunarlogic.io/2019/managing-tags-in-jekyll-blog-easily/
     # or https://jameshfisher.com/2019/05/05/how-can-i-add-tags-to-a-jekyll-blog/
   
+jekyll_admin:
+#  hidden_links:
+#    - posts
+#    - pages
+#    - staticfiles
+#    - datafiles
+#    - configuration
+  homepage: "pages"
+
 # Build settings
 
 plugins:
