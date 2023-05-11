@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Addvocate: fostering connection & insight'
+company: Addvocate
 date: '2013-07-28T13:31:00-04:00'
 tags:
 - enterprise

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'WTF Denied: Explaining benefits better'
+company: freelance
 date: '2013-10-02T13:05:00-04:00'
 tags:
 - hackathon

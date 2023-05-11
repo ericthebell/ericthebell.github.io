@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ministry of Education eRad system
+company: Concent
 date: '2012-05-12T21:54:00-04:00'
 tags:
 - Concent

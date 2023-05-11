@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Masters thesis: Beardraiser'
+company: iSchool
 date: '2010-06-12T21:46:00-04:00'
 tags:
 - MSIM

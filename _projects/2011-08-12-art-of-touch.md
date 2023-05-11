@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Art of Touch
+company: ZAAZ
 date: '2011-08-12T21:34:00-04:00'
 tags:
 - interaction design

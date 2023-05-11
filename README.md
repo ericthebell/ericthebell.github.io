@@ -21,10 +21,12 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [ ] talks and portfolio list styling
 - [ ] role page templating
 - [ ] role pages content
-- [ ] projects pages content
+- [ ] projects pages content & images
 - [ ] thumbnails to talks list
 - [ ] Collections for `tag` pages
 - [ ] Collections for role project groupings?
+- [ ] tag filterable view (projects, talks, roles)
+- [ ] showcase tag section thumbnail row on index
 - [ ] content management for Jekyll collections
 - [ ] add a blog?
 - [ ] redirect ericthebell.com

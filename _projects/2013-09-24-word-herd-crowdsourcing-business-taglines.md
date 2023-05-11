@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Word Herd: crowdsourcing business taglines'
+company: freelance
 date: '2013-09-24T11:54:00-04:00'
 tags:
 - hackathon

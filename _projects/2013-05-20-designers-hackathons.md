@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Designers @ Hackathons
+company: freelance
 date: '2013-05-20T15:52:00-04:00'
 tags:
 - presentation

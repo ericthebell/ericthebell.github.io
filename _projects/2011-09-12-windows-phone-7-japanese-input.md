@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Windows Phone 7: Japanese input'
+company: Microsoft
 date: '2011-09-12T15:20:00-04:00'
 tags:
 - Windows Phone 7

@@ -18,6 +18,20 @@ About page excerpt.
 {{ about_excerpt.excerpt }}
 </div>
 
+<!-- ## Showcase work
+
+Some of my favorite stuff (thumbnails row?)
+
+<div>
+{% assign showcase_work = site.projects | sort: "date" | reverse | first %}
+{% if showcase_work %}
+	<h2><a href="{{ last_role.url }}">{{ showcase_work.title }}</a></h2>
+	<p>{{ showcase_work.date | date: "%Y %b" }}<br/>
+	{{ showcase_work.excerpt | markdownify }}</p>
+{% endif %}
+</div>
+-->
+
 ## Portfolio summary block
 
 Look at all my cool work.

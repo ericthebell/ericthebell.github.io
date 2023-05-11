@@ -10,7 +10,7 @@ date: 2021-11-01
 thumbnail: <iframe width="560" height="315" src="https://www.youtube.com/embed/MzvkU6IBFuM?t=101" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 label: Watch the talk >
 link: https://youtu.be/MzvkU6IBFuM?t=101
-tags: oneshot talk Vineti video
+tags: oneshot talk Vineti video showcase
 ---
 
 Product design can be a conceptually simple iterative process of observation, prototyping, and testing. Yet many factors can add challenges to this otherwise straightforward feedback loop, including designing for enterprise products, configurable platforms, or regulated industries. I talk about the challenges of those contexts with some examples from Vineti, followed by a Q&A session.

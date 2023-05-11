@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Show and tell intranet
+company: iSchool
 date: '2009-05-12T22:04:00-04:00'
 tags:
 - MSIM
