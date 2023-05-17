@@ -27,8 +27,6 @@ Vineti became the proven clinical-to-commercial **platform for cell & gene thera
 
 From the ground up, I **researched, designed, prototyped, expanded and scaled** the configurable, cross-channel patient treatment logistics platform. Worked with balanced teams and mentored growing design team throughout.
 
-## Portfolio overview
-
 ### Cell & Gene Therapy
 
 Cell & gene therapies (CGT) are biologic drugs manufactured using the cells (blood or tissue) of a patient. They involve some of the most complex workflows in medicine, and require careful tracking across a series of locations.

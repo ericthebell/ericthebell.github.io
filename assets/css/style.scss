@@ -7,6 +7,6 @@
   }
 
 @import 
-  "/assets/css/tufte.css",
+  /* "/assets/css/tufte.css", */
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+  "minima/initialize"; 

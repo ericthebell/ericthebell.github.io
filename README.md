@@ -4,7 +4,9 @@
 
 Partly inspired by the philosophy of [learning in public](https://www.swyx.io/learn-in-public/).
 
-## to-do
+> Tufte CSS uses `h1` for the document title, `p` with class `subtitle` for the document subtitle, `h2` for section headings, and `h3` for low-level headings. More specific headings are not supported. If you feel the urge to reach for a heading of level 4 or greater, consider redesigning your document. (https://edwardtufte.github.io/tufte-css/)
+
+## to-do `#learninpublic`
 
 - [x] github pages repo
 - [x] figure out a theme
@@ -17,7 +19,8 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [x] talk/role list order on Home
 - [x] import content from ericthebell.info
 - [ ] customize and/or replace theme, templates (Tufte theme?)
-- [ ] typography
+- [ ] align typography
+- [ ] showcase tag section thumbnail row on index
 - [ ] talks and portfolio list styling
 - [ ] role page templating
 - [ ] role pages content
@@ -26,7 +29,6 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [ ] Collections for `tag` pages
 - [ ] Collections for role project groupings?
 - [ ] tag filterable view (projects, talks, roles)
-- [ ] showcase tag section thumbnail row on index
 - [ ] content management for Jekyll collections
 - [ ] add a blog?
 - [ ] redirect ericthebell.com
@@ -61,10 +63,9 @@ The portfolio consists of a series of `projects`, which can be bundled together 
 
 ## structure & style
 
-- `_data (component content)`
-- `_includes (component structure)`
-- `_layouts (default page structures)`
-- `_sass`
+- `_includes` (component structure)
+- `_layouts` (default page structures)
+- `_plugins` (unclear, used for tag page generation?)
 
 ### assets
 

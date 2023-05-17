@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HCI design project
+company: iSchool
 date: '2009-01-12T21:56:00-05:00'
 tags:
 - MSIM

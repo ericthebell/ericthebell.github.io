@@ -10,14 +10,6 @@ dateshow: 2010-2011
 tags: mobile OS
 ---
 
-Industry
-Role
-Context
-Impact
-Exit
-
-Something something description
-
 Microsoft | Interaction Designer Redmond '10-'11
 Windows Phone 7 Design Studio. Interaction design of all Japanese input on WP7. Fast input method innovations over iPhone, keyboard layout edge cases, emoji organization & selection. #mobile #OS
 
