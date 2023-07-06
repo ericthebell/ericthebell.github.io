@@ -18,20 +18,19 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [x] home sections excerpts
 - [x] talk/role list order on Home
 - [x] import content from ericthebell.info
-- [ ] customize and/or replace theme, templates (Tufte theme?)
-- [ ] align typography
-- [ ] showcase tag section thumbnail row on index
-- [ ] talks and portfolio list styling
-- [ ] role page templating
-- [ ] role pages content
+- [x] customize and/or replace theme, templates (Tufte theme?), align typography & styling
+- [x] showcase tag section thumbnail row
+- [ ] collection pages for `tag`s
+- [ ] role pages content & images
 - [ ] projects pages content & images
 - [ ] thumbnails to talks list
-- [ ] Collections for `tag` pages
-- [ ] Collections for role project groupings?
-- [ ] tag filterable view (projects, talks, roles)
+- [ ] redirect ericthebell.com
+- [ ] second pass CSS styling
+- [ ] thumbnail grid tiling
+- [ ] portfolio page with tag filterable view (projects, talks, roles)
+- [ ] rename `portfolio` roles list to `career`
 - [ ] content management for Jekyll collections
 - [ ] add a blog?
-- [ ] redirect ericthebell.com
 
 ## config
 

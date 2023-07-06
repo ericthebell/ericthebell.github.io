@@ -2,6 +2,7 @@
 layout: default
 title: thoughts
 header: Sunsets from trains
+subtitle: A trains & cats person in the land of cars & dogs
 permalink: /blog
 ---
 

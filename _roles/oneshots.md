@@ -3,7 +3,7 @@ title: One-shots
 layout: role
 company: freelance
 logo: /assets/images/eric_viki.png
-tagline: Hackathons & one-off projects
+tagline: Hackathons & freelance projects
 position: 
 location: 
 date: 2013-07-31

@@ -2,24 +2,35 @@
 layout: default
 ---
 
-<h1>{{ page.company }}</h1>
-<p class="subtitle">{{ page.position }}</p>
-<p>{{ page.industry }}</p>
-<p>Impact: {{ page.impact }}</p>
-<p>Exit: {{ page.exit }}</p>
+<h1>{{ page.title }}</h1>
+<h3>{{ page.position }}</h3>
+<p>{{ page.tags }}</p>
+
+<p class="">{{ page.industry }}</p>
+<p class="">Impact: {{ page.impact }}</p>
+<p class="">Exit: {{ page.exit }}</p>
 
 {{ content }}
 
-<p>{{ page.tags }}</p>
-
-<h2>{{ page.company}} projects</h2>
+<h2>{{ page.company }} projects</h2>
 
 <ul>
   {% assign role_project = site.projects | where: 'company', page.company %}
   {% for project in role_project %}
-    <li><h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+    <li><h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
       Context: {{ project.context | markdownify }}
-      Impact: {{ project.impact }}</p>
+      Impact: {{ project.impact }}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Talks at {{ page.company }}</h2>
+
+<ul>
+  {% assign role_talk = site.talks | where: 'company', page.company %}
+  {% for talk in role_talk %}
+    <li><h3><a href="{{ project.url }}">{{ talk.title }}</a></h3>
+      Context: {{ talk.context | markdownify }}
     </li>
   {% endfor %}
 </ul>

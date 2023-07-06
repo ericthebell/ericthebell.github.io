@@ -2,12 +2,13 @@
 title: Vineti
 layout: role
 company: Vineti
-logo: "/assets/images/logo-vineti.png"
+logo: /assets/images/logo-vineti1.png
+thumbnail: /assets/images/logo-vineti2.png
 tagline: Orchestrating personalized cell & gene therapy treatments for cancers & rare
   diseases
 position: Principal Product Designer
 location: San Francisco then nomadic remote
-date: '2022-08-23'
+date: 2022-08-23
 dateshow: 2016-2022
 tags:
 - startup
@@ -26,6 +27,8 @@ Vineti was founded to solve the key challenges faced by patients, medical provid
 Vineti became the proven clinical-to-commercial **platform for cell & gene therapy supply chain management**.
 
 From the ground up, I **researched, designed, prototyped, expanded and scaled** the configurable, cross-channel patient treatment logistics platform. Worked with balanced teams and mentored growing design team throughout.
+
+<hr>
 
 ### Cell & Gene Therapy
 

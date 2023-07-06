@@ -4,14 +4,16 @@ title: about
 header: A little about me
 # permalink: /about
 home_section: true
-excerpt: Hello there, I'm Eric, a digital product and service designer who specializes in complex, behind-the-scenes challenges that span multiple user groups or internal teams.
+excerpt: Hello there! I'm Eric, a digital product and service designer who specializes in complex, behind-the-scenes challenges that span multiple user groups and internal teams.
 ---
 
 # {{ page.header }}
 
-**Hello there,** I'm Eric, a digital product and service designer who came out of library science and has spent my career solving information problems, from "how can this keyboard intuitively teach faster gesture-based typing" to "how might we seamlessly orchestrate the scheduling, hospital collection, shipping, cleanroom manufacturing, and patient infusion of a personalized cell therapy?"
+**Hello there!** I'm Eric, a digital product and service designer who came out of library science. I'm a UX generalist who specializes in complex, behind-the-scenes challenges that span multiple user groups and internal teams. 
 
 <!--more--> 
+
+I've spent my career solving information and interaction problems, from "how can this keyboard intuitively teach faster gesture-based typing" to "how might we seamlessly orchestrate the scheduling, hospital collection, shipping, cleanroom manufacturing, and infusion of a drug made with one patient's cells?" Sometimes I'm the first or only designer at a startup, sometimes I come into an existing team and help unify priorities and align processes.
 
 **Design is** the process of intentionally solving a problem. UX is not about looking pretty, it's about solving user problems to achieve business goals. 
 Product design is doing that in the context of a digital product. 

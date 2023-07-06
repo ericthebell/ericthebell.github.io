@@ -2,12 +2,13 @@
 layout: role
 company: Rakuten Manga
 logo: /assets/images/logo-fanga.png
+thumbnail: /assets/images/fanga-paneling.jpg
 tagline: Comics with a global following, powered by fans
 position: 
 location: San Francisco & France
 date: 2016-03-31
 dateshow: 2015-2016
-tags: #strategy #web #mobile #CMS #analytics #research
+tags: startup spinoff strategy web mobile CMS analytics research showcase
 ---
 
 Viki & Rakuten Manga | Dir PD SF • Singapore • France '13-'16
@@ -16,15 +17,19 @@ Fan-translation platforms for global TV & comics. Directing, coordinating, desig
 ### Industry
 
 Comics and graphic novels are created around the world, with a global fanbase. The most popular series may be translated into a few populous languages, but most content ends up distributed through scanlation groups who pirate it and spend laborious hours in Photoshop creating one translation. It is available illegally at best, and in a couple languages at most.
+
 Viki established itself by licensing global video content for international audiences, and building accessible tools for everyday fans to legally subtitle and share the content they loved. Some of the most popular content would be translated into a dozen languages within a couple hours of its release.
+
 Aquafadas had built a comics publishing platform in France and had expertise authoring and managing graphic novel content. Both were subsidiaries of Rakuten.
 
 ### Fanga project
 
 The Rakuten Manga team was a spinoff collaboration between Viki and Aquafadas. We applied Viki's crowdsourced translation model to graphic novels, teaming up with Aquafadas to build translation and typesetting tools on top of their comic publishing platform.
+
 By combining legal licensing and translation tools accessible to casual fans, we would make popular content widely available in new regions and languages. Fanga's platform would undercut scanlation groups while providing new revenue streams for previously pirated content.
 
 ### Role: Director of Product Design
+
 I collaborated across a trans-Atlantic team to flesh out a product vision and roadmap for synthesizing Viki's mechanics and applying them to a comic medium, working closely with our CEO in SF and CTO in France. Designed and directed a holistic platform approach, from content strategy through translation interactions and reading experience, across web and mobile.
 
 ### Team
