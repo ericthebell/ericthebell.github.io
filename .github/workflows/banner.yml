@@ -1,4 +1,4 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: WIP Banner
 
 on:
   push:
@@ -8,23 +8,19 @@ on:
 jobs:
   github-pages:
     runs-on: ubuntu-latest
-
-steps:
-- name: Checkout repo
-  uses: actions/checkout@v2
-
-- name: Get last commit message
-  run: echo "COMMIT_MESSAGE<<EOF" >> $GITHUB_ENV
-       git log --format=%B -n 1 HEAD >> $GITHUB_ENV
-       echo "EOF" >> $GITHUB_ENV
-
-- name: Get last commit date
-  run: echo "COMMIT_DATE=$(git log -1 --format=%cd --date=format:'%Y-%m-%d')" >> $GITHUB_ENV
-
-- name: Build and deploy
-  uses: helaili/jekyll-action@2.0.5
-  with:
-    jekyll_src: '.'
-    token: ${{ secrets.GITHUB_TOKEN }}
-    enable_cache: true
-    jekyll_build_opts: '--config _config.yml,config_prod.yml'
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - name: Get last commit message
+      run: echo "COMMIT_MESSAGE<<EOF" >> $GITHUB_ENV
+           git log --format=%B -n 1 HEAD >> $GITHUB_ENV
+           echo "EOF" >> $GITHUB_ENV
+    - name: Get last commit date
+      run: echo "COMMIT_DATE=$(git log -1 --format=%cd --date=format:'%Y-%m-%d')" >> $GITHUB_ENV
+    - name: Build and deploy
+      uses: helaili/jekyll-action@2.0.5
+      with:
+        jekyll_src: '.'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        enable_cache: true
+        jekyll_build_opts: '--config _config.yml,config_prod.yml'
