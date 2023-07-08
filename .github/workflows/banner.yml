@@ -19,11 +19,3 @@ jobs:
     - name: Get last commit date
       id: gitdate
       run: echo "::set-output name=date::$(git log -1 --format=%cd --date=format:'%Y-%m-%d')"
-
-    - name: Build and deploy
-      uses: helaili/jekyll-action@2.0.5
-      with:
-        jekyll_src: '.'
-        token: ${{ secrets.GITHUB_TOKEN }}
-        enable_cache: true
-        jekyll_build_opts: "--config _config.yml,config_prod.yml --env COMMIT_MESSAGE=${{ steps.gitlog.outputs.message }},COMMIT_DATE=${{ steps.gitdate.outputs.date }}"
