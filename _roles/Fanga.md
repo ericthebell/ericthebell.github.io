@@ -4,7 +4,7 @@ company: Rakuten Manga
 logo: /assets/images/logo-fanga.png
 thumbnail: /assets/images/fanga-paneling.jpg
 tagline: Comics with a global following, powered by fans
-position: 
+position: Director of Product Design
 location: San Francisco & France
 date: 2016-03-31
 dateshow: 2015-2016

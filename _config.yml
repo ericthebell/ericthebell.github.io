@@ -66,6 +66,9 @@ minima:
 
 google_analytics: G-JL11R2DP8Z
 
+last_commit_message: ${COMMIT_MESSAGE}
+last_commit_date: ${COMMIT_DATE}
+
 defaults:
   - scope:
       path: "_roles"

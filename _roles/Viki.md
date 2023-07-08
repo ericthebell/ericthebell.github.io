@@ -3,7 +3,7 @@ layout: role
 company: Rakuten Viki
 logo: /assets/images/logo-viki.png 
 tagline: Fan-powered international video translation
-position: 
+position: UX Design Lead
 location: San Francisco & Singapore
 date: 2015-05-31
 dateshow: 2013-2015

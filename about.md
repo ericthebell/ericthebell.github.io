@@ -4,12 +4,12 @@ title: about
 header: A little about me
 # permalink: /about
 home_section: true
-excerpt: Hello there! I'm Eric, a digital product and service designer who specializes in complex, behind-the-scenes challenges that span multiple user groups and internal teams.
+excerpt: Hello there! I'm Eric, a digital product and service designer who specializes in complex, behind-the-scenes challenges that span multiple user groups or internal teams.
 ---
 
 # {{ page.header }}
 
-**Hello there!** I'm Eric, a digital product and service designer who came out of library science. I'm a UX generalist who specializes in complex, behind-the-scenes challenges that span multiple user groups and internal teams. 
+**Hello there!** I'm Eric, a digital product and service designer who came out of library science. I'm a UX generalist who specializes in complex, behind-the-scenes challenges that span multiple user groups or internal teams. 
 
 <!--more--> 
 
@@ -34,3 +34,10 @@ The last six years I spent leading the design team at [Vineti](https://vineti.co
 ## Working together
 
 <img src="/assets/images/ericbell-user-manual.jpg">
+
+## Accolades
+
+I shy away from trumpeting myself, but my colleagues do seem to keep saying nice things about me.
+
+
+

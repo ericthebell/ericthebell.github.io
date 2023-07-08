@@ -5,6 +5,11 @@
 
   <body class="sans">
 
+    <div id="banner" style="display: none;">
+      <button id="close-banner" style="float: right;">X</button>
+      <p id="banner-message"></p>
+    </div>
+
     {%- include header.html -%}
 
     <article class="page-content" aria-label="Content">
@@ -14,6 +19,27 @@
     </article>
 
     {%- include footer.html -%}
+
+    <script>
+      // Get the banner and close button elements
+      var banner = document.getElementById('banner');
+      var closeButton = document.getElementById('close-banner');
+
+      // Get the banner message from localStorage
+      var message = localStorage.getItem('bannerMessage');
+      var lastCommitDate = localStorage.getItem('lastCommitDate');
+
+      // If there's a message, show the banner with the message
+      if (message && lastCommitDate) {
+        document.getElementById('banner-message').innerText = message + ' Last updated on: ' + lastCommitDate;
+        banner.style.display = 'block';
+      }
+
+      // When the close button is clicked, hide the banner
+      closeButton.onclick = function() {
+        banner.style.display = 'none';
+      }
+    </script>
 
   </body>
 
