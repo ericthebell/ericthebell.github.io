@@ -5,10 +5,7 @@
 
   <body class="sans">
 
-    <div id="banner" style="display: none;">
-      <button id="close-banner" style="float: right;">X</button>
-      <p id="banner-message"></p>
-    </div>
+    {%- include banner.html message=site.data.banner.message date=site.data.banner.date -%}
 
     {%- include header.html -%}
 

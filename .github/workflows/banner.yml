@@ -11,11 +11,9 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v2
-
     - name: Get last commit message
       id: gitlog
       run: echo "::set-output name=message::$(git log --format=%B -n 1 HEAD)"
-
     - name: Get last commit date
       id: gitdate
       run: echo "::set-output name=date::$(git log -1 --format=%cd --date=format:'%Y-%m-%d')"
