@@ -17,7 +17,7 @@ jobs:
 
     - name: Get last commit date
       id: gitdate
-      run: echo "message=$(git log -1 --format=%cd --date=format:'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      run: echo "date=$(git log -1 --format=%cd --date=format:'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
     - name: Write to banner.yml
       run: |
