@@ -13,12 +13,10 @@ jobs:
       uses: actions/checkout@v2
     - name: Get last commit message
       id: gitlog
-      run: echo "message=$(git log --format=%B -n 1 HEAD)" >> $GITHUB_OUTPUT
-
+      run: echo "message=$(git log --format=%B -n 1 HEAD)" >> "$GITHUB_OUTPUT"
     - name: Get last commit date
       id: gitdate
-      run: echo "date=$(git log -1 --format=%cd --date=format:'%Y-%m-%d')" >> $GITHUB_OUTPUT
-
+      run: echo "date=$(git log -1 --format=%cd --date=format:'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
     - name: Write to banner.yml
       run: |
         echo "message: \"${{ steps.gitlog.outputs.message }}\"" > ./_data/banner.yml
