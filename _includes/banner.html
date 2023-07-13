@@ -1,4 +1,6 @@
-<div id="banner" style="display: none;">
-  <button id="close-banner" style="float: right;">X</button>
-  <p id="banner-message">{{ include.message }} Last updated on: {{ include.date }}</p>
+<div id="banner">
+  <div class="banner-message">
+    <span class="alert-icon"><i class="fa fa-info-circle"></i></span>
+    <span class="alert-info">Last update:</span> {{ include.message }} <span class="alert-update">{{ include.date | date: "%d %b %Y, %R" }}</span></div>
+  <button id="close-banner"></button>
 </div>

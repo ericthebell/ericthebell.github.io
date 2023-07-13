@@ -5,6 +5,8 @@
 
   <body class="sans">
 
+    {%- include banner.html message=site.data.banner.message date=site.data.banner.date -%}
+
     {%- include header.html -%}
 
     <article class="page-content" aria-label="Content">
@@ -14,6 +16,11 @@
     </article>
 
     {%- include footer.html -%}
+    
+    <script>
+      document.getElementById('close-banner').addEventListener('click', function() {
+      document.getElementById('banner').style.display = 'none';});
+    </script>
 
   </body>
 
