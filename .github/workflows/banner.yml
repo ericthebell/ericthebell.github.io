@@ -15,14 +15,19 @@ jobs:
         fetch-depth: 0
     - name: Get last commit message
       id: gitlog
-      run: echo "message=$(git log --format=%B -n 1 HEAD)" >> "$GITHUB_OUTPUT"
+      run: |
+        message=$(git log --format=%B -n 1 HEAD)
+        message="${message//'%'/'%25'}"
+        message="${message//$'\n'/'%0A'}"
+        message="${message//$'\r'/'%0D'}"
+        echo "message=$message" >> "$GITHUB_ENV"
     - name: Get last commit date
       id: gitdate
-      run: echo "date=$(git log -1 --format=%cd --date=format:'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+      run: echo "date=$(git log -1 --format=%cd --date=format:'%Y-%m-%d')" >> "$GITHUB_ENV"
     - name: Write to banner.yml
       run: |
-        echo "message: \"${{ steps.gitlog.outputs.message }}\"" > ./_data/banner.yml
-        echo "date: \"${{ steps.gitdate.outputs.date }}\"" >> ./_data/banner.yml
+        echo "message: \"$message\"" > ./_data/banner.yml
+        echo "date: \"$date\"" >> ./_data/banner.yml
     - name: Commit banner.yml
       run: |
         git config user.name "GitHub Actions"
@@ -30,3 +35,5 @@ jobs:
         git add ./_data/banner.yml
         git commit -m "Update banner.yml with last commit message and date"
         git push
+
+
