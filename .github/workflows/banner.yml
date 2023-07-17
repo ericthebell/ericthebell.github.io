@@ -16,7 +16,7 @@ jobs:
     - name: Get last commit message
       id: gitlog
       run: |
-        message=$(git log --format=%B -n 1 HEAD)
+        message=$(git log --format=%s -n 1 HEAD)
         message="${message//'%'/'%25'}"
         message="${message//$'\n'/'%0A'}"
         message="${message//$'\r'/'%0D'}"
@@ -33,7 +33,6 @@ jobs:
         git config user.name "GitHub Actions"
         git config user.email "github-actions@github.com"
         git add ./_data/banner.yml
-        git commit -m "Update banner.yml with last commit message and date"
+        git commit -m "Update banner.yml with last commit message and date [skip ci]"
         git push
-
-
+    
