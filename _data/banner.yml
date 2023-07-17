@@ -1,2 +1,2 @@
-message: "Merge branch 'main' of https://github.com/ericthebell/ericthebell.github.io"
-date: "2023-07-13"
+message: "WIP banner something%0A%0AOUTPUT etc to ENV variables, also sanitizing for multi-line commit messages apparently"
+date: "2023-07-17"
