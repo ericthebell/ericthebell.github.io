@@ -8,7 +8,7 @@ position: Director of Product Design
 location: San Francisco & France
 date: 2016-03-31
 dateshow: 2015-2016
-tags: startup spinoff strategy web mobile CMS analytics research showcase
+tags: startup spinoff consumer comics crowdsourcing translation strategy web mobile CMS analytics research showcase
 ---
 
 Viki & Rakuten Manga | Dir PD SF • Singapore • France '13-'16

@@ -2,12 +2,13 @@
 layout: role
 company: Rakuten Viki
 logo: /assets/images/logo-viki.png 
+thumbnail: 
 tagline: Fan-powered international video translation
 position: UX Design Lead
 location: San Francisco & Singapore
 date: 2015-05-31
 dateshow: 2013-2015
-tags: startup enterprise healthcare
+tags: startup consumer streaming crowdsourcing translation
 ---
 
 Viki & Rakuten Manga | Dir PD SF • Singapore • France '13-'16

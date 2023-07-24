@@ -1,0 +1,67 @@
+/* Alert banner */
+
+#banner {
+  /* display: none; */
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  background: #ea6b67;
+  color: #fff;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alert-icon {
+    float: left;
+    margin-right: 15px;
+}
+
+.banner-message {
+  max-width: 960px;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+#close-banner {
+  float: right;
+  margin-top: 0;
+  margin-left: 0;
+  width: 21px;
+  height: 21px;
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    width: 15px;
+    height: 2px;
+    left: 0;
+  }
+  &:before {
+    background-color: #fff;
+    transform: rotate(-45deg);
+  }
+  &:after {
+    background-color: #fff;
+    transform: rotate(45deg);}
+}
+
+.alert-info {
+  margin: 0 10px 0 0;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.alert-update {
+  margin: 0 0 0 10px;
+  font-family: monospace;
+  color: #ffe124;
+}

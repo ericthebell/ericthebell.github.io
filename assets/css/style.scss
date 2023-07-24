@@ -1,6 +1,13 @@
 ---
 ---
 
+@import 
+  /* "/assets/css/tufte.css", */
+  "/assets/css/tufte-notes.css",
+  "/assets/css/banner.css",
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize"; 
+
 .site-logo {
   border-radius: 50%;
   margin: 3px 12px 12px 0px;
@@ -10,12 +17,19 @@ a.site-title {
   font-weight: 600;
 }
 
-@import 
-  /* "/assets/css/tufte.css", */
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize"; 
+header .site-header {
+}
+
+header .tufte {
+  padding: 0 0 0 12.5%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 body {
+  /* width: 87.5%; */
   margin-left: auto;
   margin-right: auto;
   font-family: Merriweather Sans, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -23,6 +37,15 @@ body {
   color: #111;
   max-width: 1400px;
   counter-reset: sidenote-counter;
+}
+
+article {
+
+}
+
+article.tufte {
+  width: 87.5%;  
+  padding: 30px 0 0 12.5%;
 }
 
 h1 {
@@ -57,6 +80,22 @@ h3 {
   line-height: 1;
 }
 
+.tufte hr {
+  width: 55%;
+}
+
+p {
+  font-size: 1.1rem; /* tufte 1.4rem */
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  padding-right: 0;
+  vertical-align: baseline;
+}
+
+.tufte p {
+  width: 55%;
+}
+
 a {
   color: #f55b2c;
   border-bottom: 1px solid #e0e2e1;
@@ -80,9 +119,57 @@ a:visited {
   color: #ba2e04;
 }
 
-/* thumbnail row styling moved */
+/* header area logo */
 
-/* tiling styling https://codepen.io/rajeshuiux/pen/QWLrNmL */
+.role-header {
+  display: flex; /* Makes thumbnail match the height of .role-text */ 
+  align-items: stretch; /* Makes items match the same height */
+}
+
+.role-header p {
+  width: 100%;
+}
+
+.role-meta {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.role-thumb {
+  flex-basis: fit-content;
+  padding: 15px;
+}
+
+.role-thumb img {
+  object-fit: contain; /* Helps maintain aspect ratio of the image */  
+  /* flex-basis: 33%; This will take up to 1/3 of the width */
+}
+
+/* row summary styling */
+
+.row-block {
+  display: flex;
+  align-items: stretch; /* Makes items match the same height */
+}
+
+.row-text {
+  /* flex-basis: 66%; This will take up to 2/3 of the width */
+}
+
+.row-thumb {
+  display: flex; /* Makes thumbnail match the height of .role-text */
+  /* flex-basis: 33%; This will take up to 1/3 of the width */
+  flex-basis: fit-content;
+  padding: 15px;
+}
+
+.row-thumb img {
+  /* width: 100%;
+  height: 100%; */
+  object-fit: contain; /* Helps maintain aspect ratio of the image */
+}
+
+/* tiled thumbnails modified https://codepen.io/rajeshuiux/pen/QWLrNmL */
 
 .container  {
   /* max-width:1140px; */
@@ -146,167 +233,4 @@ a:visited {
   background-image: linear-gradient(to bottom, transparent, rgba(0,0,0, 1));
 }
 
-/* row summary styling */
 
-.row-block {
-  display: flex;
-  align-items: stretch; /* Makes items match the same height */
-}
-
-.row-text {
-  /* flex-basis: 66%; This will take up to 2/3 of the width */
-}
-
-.row-thumb {
-  display: flex; /* Makes thumbnail match the height of .role-text */
-  /* flex-basis: 33%; This will take up to 1/3 of the width */
-  flex-basis: fit-content;
-  padding: 20px;
-}
-
-.row-thumb img {
-  /* width: 100%;
-  height: 100%; */
-  object-fit: cover; /* Helps maintain aspect ratio of the image */
-}
-
-/* Alert banner */
-
-#banner {
-  /* display: none; */
-  /* position: fixed; */
-  top: 0;
-  width: 100%;
-  background: #ea6b67;
-  color: #fff;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.alert-icon {
-    float: left;
-    margin-right: 15px;
-}
-
-.banner-message {
-  max-width: 960px;
-  margin: 0 10px;
-  font-size: 14px;
-}
-
-#close-banner {
-  float: right;
-  margin-top: 0;
-  margin-left: 0;
-  width: 21px;
-  height: 21px;
-  position: relative;
-  background: none;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  &:before,
-  &:after {
-    content: '';
-    position: absolute;
-    top: 8px;
-    width: 15px;
-    height: 2px;
-    left: 0;
-  }
-  &:before {
-    background-color: #fff;
-    transform: rotate(-45deg);
-  }
-  &:after {
-    background-color: #fff;
-    transform: rotate(45deg);}
-}
-
-.alert-info {
-  margin: 0 10px 0 0;
-  text-transform: uppercase;
-  font-weight: lighter;
-}
-
-.alert-update {
-  font-family: monospace;
-  color: #ffe124;
-}
-
-/* alerts */
-
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,600,700');
-//Color-palette
-$black: #66615B;
-$white: #fff;
-$blue: #29d2e4;
-
-// Alerts
-@mixin alert-variant($alert-vertical-padding,
-$alert-horizontal-padding,
-$background,
-$border-color,
-$text-color) {
-  background-color: $background;
-  border: 1px solid $border-color;
-  color: $text-color;
-  padding: $alert-vertical-padding $alert-horizontal-padding;
-  .alert-icon {
-    float: left;
-    margin-right: 15px;
-  }
-
-  .alert-container {
-    position: relative;
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  .close-icon {
-    float: right;
-    color: #000;
-    margin-top: 0;
-    margin-left: 0;
-    width: 21px;
-    height: 21px;
-    position: relative;
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    text-indent: -999px;
-    overflow: hidden;
-    white-space: nowrap;
-    &:before,
-    &:after {
-      content: '';
-      position: absolute;
-      top: 8px;
-      width: 15px;
-      height: 2px;
-      left: 0;
-    }
-    &:before {
-      background-color: #fff;
-      transform: rotate(-45deg);
-    }
-    &:after {
-      background-color: #fff;
-      transform: rotate(45deg);
-    }
-  }
-}
-
-.alert {
-  @include alert-variant(15px,
-  20px,
-  $blue,
-  $blue,
-  #fff);
-  &.alert-custom {
-    @include alert-variant(null,null,$black,$black,null);
-  }
-}

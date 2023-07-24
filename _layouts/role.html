@@ -1,19 +1,27 @@
 ---
-layout: default
+layout: tufte
 ---
 
 <h1>{{ page.title }}</h1>
+<em>{{ page.tagline }}</em>
 <h3>{{ page.position }}</h3>
-<p>{{ page.tags }}</p>
+<p>{{ page.dateshow }} | <em>{{ page.location }}</em></p>
+{%- include tags.md -%}
 
-<p class="">{{ page.industry }}</p>
-<p class="">Impact: {{ page.impact }}</p>
-<p class="">Exit: {{ page.exit }}</p>
+<hr>
+
+<label for="mn-fig0" class="margin-toggle">&#8853;</label>
+  <input type="checkbox" id="mn-fig0" class="margin-toggle"/>
+  <span class="marginnote">
+  <img src="{{ page.logo | default: '/assets/images/eric_viki.png' }}" alt="{{ page.title }} logo">
+  {{ page.tagline }}
+</span>
 
 {{ content }}
 
-<h2>{{ page.company }} projects</h2>
+<hr>
 
+<h2>{{ page.company }} projects</h2>
 <ul>
   {% assign role_project = site.projects | where: 'company', page.company %}
   {% for project in role_project %}
@@ -25,7 +33,6 @@ layout: default
 </ul>
 
 <h2>Talks at {{ page.company }}</h2>
-
 <ul>
   {% assign role_talk = site.talks | where: 'company', page.company %}
   {% for talk in role_talk %}

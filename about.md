@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: tufte
 title: about
 header: A little about me
 # permalink: /about
@@ -27,11 +27,21 @@ Service design is about creating that holistic experience across disparate produ
 
 The last six years I spent leading the design team at [Vineti](https://vineti.com/), where we built a platform to orchetsrate the next generation of cell nd gene therapy treatments. Before that I directed product design on the Rakuten Manga project, a platform for fans to translate digital comics into their own language, and I formed and facilitated the design team at Viki, a Rakuten subsidiary. I've worked at a small social media startup, design agencies in Tokyo and Seattle, and designed the Japanese input methods for Microsoft's erstwhile Windows Phone 7.
 
-**Currently I'm looking** for *complex system & service problems* to work on, an *established design team* to learn from & mentor, who are *geographically distributed* with intentional onsites.
+<label for="mn-1" class="margin-toggle">&#8853;</label>
+	<input type="checkbox" id="mn-1" class="margin-toggle"/>
+	<span class="marginnote">
+	**Areas I'm passionate about**. I enjoy a myriad of topics and industries, and I'm a sucker for diving into a new area. healthcare, crowdsourcing, security, process design, team hiring/interviewing, system modeling, guerrilla research, design patterns, hackathons.
+</span>
+
+**Currently I'm looking** for *complex system & service problems* to work on, an *established design team* to learn from & mentor, who are *geographically distributed* with intentional onsites. 
 
 <!-- **I design things** based on the people who use them. I’m particularly good at wrapping my head around novel systems and making complexity understandable to its audience. I see most of these situations as information problems. My specialties are Interaction Design and Information Architecture. I approach products, services, and cross-channel experiences holistically. -->
 
 ## Working together
+
+paste in actual user manual text
+
+add "how I focus" as side figure
 
 <img src="/assets/images/ericbell-user-manual.jpg">
 

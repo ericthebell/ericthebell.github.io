@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: index
+layout: home
 title: Eric Bell
 header: Holistic product & service design, or, making complexity feel simple
 ---
@@ -15,7 +15,7 @@ header: Holistic product & service design, or, making complexity feel simple
 
 I've worked across entereprise, startups, consultancies, on local and remote teams distributed across San Francisco to Singapore, France to Armenia. Right now I'm looking for a distributed team with a culture of intentional collaboration.
 
-This site is an example of [learning in public](https://www.swyx.io/learn-in-public/), where I'm digging into Jekyll to revamp an archaic [tumblr site](https://ericthebell.info).
+Using this site to practice [learning in public](https://www.swyx.io/learn-in-public/), and enjoying the [structure of Jekyll](https://github.com/ericthebell/ericthebell.github.io) as I revamp an archaic [tumblr site](https://ericthebell.info).
 
 <hr>
 
@@ -28,7 +28,7 @@ This site is an example of [learning in public](https://www.swyx.io/learn-in-pub
 	<div class="row-text">
 		<strong>{{ last_role.position }}</strong><br/>
 		<p><em>{{ last_role.date | date: "%Y %b" }}</em></p>
-		{{ last_role.excerpt | markdownify }}
+		{{ last_role.summary | markdownify }}
 	</div>
 	<div class="row-thumb">
 		<img src="{{ last_role.thumbnail | default: '/assets/images/eric_viki.png' }}" alt="{{ last_role.company }}">

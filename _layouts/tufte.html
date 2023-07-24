@@ -5,12 +5,14 @@
 
   <body>
 
-    {%- include header.html -%}
-
-    <article class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+    <header class="site-header">
+      <div class="tufte">
+        {%- include header-tufte.html -%}
       </div>
+    </header>
+
+    <article class="tufte" aria-label="Content">
+        {{ content }}
     </article>
 
     {%- include footer.html -%}
