@@ -19,7 +19,7 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [x] customize and/or replace theme, templates (Tufte theme?), align typography & styling
 - [x] showcase tag section thumbnail row
 - [x] WIP alert or something ("latest change" note?)
-- [ ] home layout, article layout separate CSS
+- [x] home layout, article layout separate CSS
 - [ ] redirect ericthebell.com
 - [ ] role pages content & images
 - [ ] projects pages content & images
