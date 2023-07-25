@@ -5,7 +5,7 @@ img {
 
 .sidenote,
 .marginnote {
-    font-family: Gill Sans;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     float: right;
     clear: right;
     margin-right: 10%;

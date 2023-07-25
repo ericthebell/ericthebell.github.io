@@ -4,14 +4,15 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<p>{{ page.context }}<br/>
-{{ page.date | date: "%Y %b" }}</p>
+<p><em>{{ page.date | date: "%Y %b" }}</em> | <span class="notes">{{ page.context }}</span></p>
 
-<h3>{{ page.formal}} </h3>
+<h3>{{ page.headline }} </h3>
 
 {{ content }}
 
 {{ page.embed }}
+
+<div><a href="{{ page.link }}">{{ page.label }}</a></div>
 
 {%- include tags.md -%}
 

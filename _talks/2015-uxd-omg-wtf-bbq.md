@@ -1,9 +1,9 @@
 ---
 layout: talk
 title: Parsing UX Design
-headline: UXD OMG WTF BBQ
+headline: A talk on UX design terminoligy, skillsets, and process
 summary: Breaking down UX titles and design process, a presentation and Q&A session at <a href="https://href.li/?http://www.createtogether.am/">#createTogether conference</a> in Yerevan, Armenia.
-context: "#createtogether conference in Yerevan, Armenia"
+context: <a href="http://www.createtogether.am/">#createtogether conference</a> in Yerevan, Armenia
 date: 2015-10-01
 dateshow: 2015 Oct
 thumbnail: /assets/images/talk-uxd-wtf-title.png
@@ -13,6 +13,4 @@ link: www.slideshare.net/ericthebell/ux-design-breakdown-and-qa-session-createto
 tags: talk event slides oneshot showcase
 ---
 
-## A talk on UX Design terminoligy, skillsets, and process.
-
-Breaking down UX titles and design process, a presentation and Q&A session at <a href="https://href.li/?http://www.createtogether.am/">#createTogether conference</a> in Yerevan, Armenia.
+Design as a discipline and a role in startups is often poorly understood. I put together this talk to unpack what goes into UX design, explain the nuance of different design role titles, and give some examples of user-centered design processes. And to leave links and references for follow-up reading. Presentation and Q&A session.
