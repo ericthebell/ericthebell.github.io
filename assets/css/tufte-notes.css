@@ -3,6 +3,10 @@ img {
     max-width: 100%;
 }
 
+.marknote {
+    markdown: 0;
+}
+
 .sidenote,
 .marginnote {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;

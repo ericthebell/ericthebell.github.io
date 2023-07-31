@@ -20,7 +20,7 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [x] showcase tag section thumbnail row
 - [x] WIP alert or something ("latest change" note?)
 - [x] home layout, article layout separate CSS
-- [ ] redirect ericthebell.com
+- [x] redirect ericthebell.com
 - [ ] role pages content & images
 - [ ] projects pages content & images
 - [ ] figure out Tufte images CSS

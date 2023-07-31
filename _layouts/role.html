@@ -5,7 +5,7 @@ layout: tufte
 <h1>{{ page.title }}</h1>
 <em>{{ page.tagline }}</em>
 <h3>{{ page.position }}</h3>
-<p>{{ page.dateshow }} | <em>{{ page.location }}</em></p>
+<p><em>{{ page.dateshow }}</em> | <span class="notes">{{ page.location }}</span></p>
 {%- include tags.md -%}
 
 <hr>
@@ -22,22 +22,36 @@ layout: tufte
 <hr>
 
 <h2>{{ page.company }} projects</h2>
-<ul>
-  {% assign role_project = site.projects | where: 'company', page.company %}
-  {% for project in role_project %}
-    <li><h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
-      Context: {{ project.context | markdownify }}
-      Impact: {{ project.impact }}
-    </li>
-  {% endfor %}
-</ul>
+{% assign role_project = site.projects | where: 'company', page.company %}
+{% for project in role_project %}
+  <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+  <label for="mn-1" class="margin-toggle">&#8853;</label>
+      <input type="checkbox" id="mn-1" class="margin-toggle"/>
+      <span class="marginnote">
+      <img src="{{ project.thumbnail | default: '/assets/images/eric_viki.png' }}" alt="{{ project.company }}">
+  </span>
+  <div class ="">
+    <div class="row-text">
+      <p><strong>Context:</strong> {{ project.context }}</p>
+      <p><strong>Impact:</strong> {{ project.impact }}</p>
+    </div>
+  </div>
+{% endfor %}
 
 <h2>Talks at {{ page.company }}</h2>
-<ul>
-  {% assign role_talk = site.talks | where: 'company', page.company %}
-  {% for talk in role_talk %}
-    <li><h3><a href="{{ project.url }}">{{ talk.title }}</a></h3>
-      Context: {{ talk.context | markdownify }}
-    </li>
-  {% endfor %}
-</ul>
+{% assign role_talk = site.talks | where: 'company', page.company %}
+{% for talk in role_talk %}
+  <h3><a href="{{ talk.url }}">{{ talk.title }}</a></h3>
+  <label for="mn-1" class="margin-toggle">&#8853;</label>
+      <input type="checkbox" id="mn-1" class="margin-toggle"/>
+      <span class="marginnote">
+      <img src="{{ talk.thumbnail | default: '/assets/images/eric_viki.png' }}" alt="{{ talk.company }}">
+  </span>
+  <div class ="">
+    <div class="row-text">
+      <p><strong>Context:</strong> {{ talk.context }}</p>
+      <p><strong>Impact:</strong> {{ project.impact }}</p>
+    </div>
+  </div>
+{% endfor %}
+
