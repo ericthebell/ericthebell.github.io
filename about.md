@@ -55,10 +55,6 @@ The last six years I spent leading the design team at [Vineti](https://vineti.co
 
 ## Working together
 
-paste in actual user manual text
-
-add "how I focus" as side figure
-
 <div class="marknote">
 <label for="mn-2" class="margin-toggle">&#8853;</label>
 	<input type="checkbox" id="mn-2" class="margin-toggle"/>
@@ -67,14 +63,14 @@ add "how I focus" as side figure
 	</span>
 </div>
 
-### TEAM DYNAMICS
+### Team dynamics
 **Feedback**. Is a gift. Sharing or receiving, nothing is personal. Everything is a data point towards insights to align impact with goals.
 
 **Conflict**. We are a team not a family. Let's confront our disagreements constructively rather than avoid the conflict.
 
 **Safety**. Emotional safety is critical for a collaborative team that wants to tackle its risks rather than hide them. How might we support each other to continue improving our dynamics?
 
-### COLLABORATION
+### Collaboration
 **Pairing**. Working together live saves communication disconnects and dramatically shortens feedback loops, let's schedule some time.
 
 **Visibility**. I believe in passive visibility of team work, via information radiators or shared task boards, to create awareness and allow for serendipitous interactions.
@@ -83,12 +79,12 @@ add "how I focus" as side figure
 
 **Presence**. Distributed by default, on-site by intention. Let's meet up in-person 2-4x year for project intensives.
 
-### WORK MINDSET
+### Work mindset
 **Process nerd**. There are so many ways to get things done, let's figure out the project mindsets that work best for us.
 
 **Librarian**. Many coworkers have told me I'm the most organized person they know. I habitually take notes and synthesize takeaways and follow-up tasks.
 
-**Information Architect**. My mental model is not yours. Let's find the right balance of structure and flexibility to maximize everyone's mental modal for where things should go.
+**Information Architect**. My mental model is not yours. Let's find the right balance of structure and flexibility to maximize everyone's mental model for where things should go.
 
 <hr>
 

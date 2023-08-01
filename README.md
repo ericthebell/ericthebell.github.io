@@ -20,10 +20,11 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [x] showcase tag section thumbnail row
 - [x] WIP alert or something ("latest change" note?)
 - [x] home layout, article layout separate CSS
+- [ ] realign header and footer to uniform width for both layouts
+- [x] figure out Tufte images CSS
 - [x] redirect ericthebell.com
 - [ ] role pages content & images
 - [ ] projects pages content & images
-- [ ] figure out Tufte images CSS
 - [ ] thumbnails for everything
 - [ ] accolades on About page
 - [ ] better focused expertise & goals
