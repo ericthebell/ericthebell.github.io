@@ -118,7 +118,7 @@ Using this site to practice [learning in public](https://www.swyx.io/learn-in-pu
 	        <span class="overlay-box">
 	        	<span class="meta">{{ item.date | date: "%Y %b" }} | <em>#{{ item.tags | first }}</em></span>
 	        	<span class="main-title">
-	        	{% if item.company %}{{ item.company }}: {% endif %}
+	        	<!-- {% if item.company %}{{ item.company }}: {% endif %} -->
 	        	{{ item.title }}</span>
 	    	</span>
 	    	</a>	

@@ -1,7 +1,7 @@
 ---
 title: One-shots
 layout: role
-company: freelance
+company: Hackathon
 logo: /assets/images/eric_viki.png
 tagline: Hackathons & freelance projects
 position: 

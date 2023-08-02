@@ -10,8 +10,8 @@ excerpt: Hello there! I'm Eric, a digital product and service designer who speci
 # {{ page.header }}
 
 <div class="marknote">
-<label for="mn-2" class="margin-toggle">&#8853;</label>
-	<input type="checkbox" id="mn-2" class="margin-toggle"/>
+<label for="mn-1" class="margin-toggle">&#8853;</label>
+	<input type="checkbox" id="mn-1" class="margin-toggle"/>
 	<span class="marginnote">
 		<img src="/assets/images/eric_chops.png" style="border-radius: 50%;">
 	</span>
@@ -32,16 +32,16 @@ Service design is about creating that holistic experience across disparate produ
 **I've shipped** three startups from soup to nuts, optimized existing products, and I visualizing and aligning product strategy and execution. I have a bad habit of sticking through a project until it succeeds or dies under my feet.
 
 <figure class="fullwidth">
-	<label for="mn-exports-imports" class="margin-toggle">⊕</label>
-	<input type="checkbox" id="mn-exports-imports" class="margin-toggle">
+	<label for="mn-2" class="margin-toggle">⊕</label>
+	<input type="checkbox" id="mn-2" class="margin-toggle">
 	<img src="/assets/images/career-timeline-simple.png" alt="career timeline">
 </figure>
 
 The last six years I spent leading the design team at [Vineti](https://vineti.com/), where we built a platform to orchetsrate the next generation of cell nd gene therapy treatments. Before that I directed product design on the Rakuten Manga project, a platform for fans to translate digital comics into their own language, and I formed and facilitated the design team at Viki, a Rakuten subsidiary. I've worked at a small social media startup, design agencies in Tokyo and Seattle, and designed the Japanese input methods for Microsoft's erstwhile Windows Phone 7.
 
 <div class="marknote">
-<label for="mn-1" class="margin-toggle">&#8853;</label>
-	<input type="checkbox" id="mn-1" class="margin-toggle"/>
+<label for="mn-3" class="margin-toggle">&#8853;</label>
+	<input type="checkbox" id="mn-3" class="margin-toggle"/>
 	<span class="marginnote">
 	<strong>I'm passionate</strong> about many topics, and I'm a sucker for diving into a new industry. Some special interests include healthcare, crowdsourcing, security, process design, team hiring/interviewing, system modeling, guerrilla research, design patterns, hackathons.
 	</span>
@@ -56,8 +56,8 @@ The last six years I spent leading the design team at [Vineti](https://vineti.co
 ## Working together
 
 <div class="marknote">
-<label for="mn-2" class="margin-toggle">&#8853;</label>
-	<input type="checkbox" id="mn-2" class="margin-toggle"/>
+<label for="mn-4" class="margin-toggle">&#8853;</label>
+	<input type="checkbox" id="mn-4" class="margin-toggle"/>
 	<span class="marginnote">
 		<img src="/assets/images/about-focus.jpg">
 	</span>

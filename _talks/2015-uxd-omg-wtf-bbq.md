@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Parsing UX Design
-headline: A talk on UX design terminoligy, skillsets, and process
+headline: A talk on UX design terminology, skillsets, and process
 summary: Breaking down UX titles and design process, a presentation and Q&A session at <a href="https://href.li/?http://www.createtogether.am/">#createTogether conference</a> in Yerevan, Armenia.
 context: <a href="http://www.createtogether.am/">#createtogether conference</a> in Yerevan, Armenia
 date: 2015-10-01

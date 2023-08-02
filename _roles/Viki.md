@@ -8,7 +8,7 @@ position: UX Design Lead
 location: San Francisco & Singapore
 date: 2015-05-31
 dateshow: 2013-2015
-tags: startup consumer streaming crowdsourcing translation
+tags: startup consumer streaming crowdsourcing translation showcase
 ---
 
 Viki & Rakuten Manga | Dir PD SF • Singapore • France '13-'16

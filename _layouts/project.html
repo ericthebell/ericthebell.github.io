@@ -2,22 +2,13 @@
 layout: tufte
 ---
 
-<h1>{{ page.title }}</h1>
+<h1>{{ page.company }}: {{ page.title }}</h1>
+<em>{{ page.context }}</em>
+<h3>{{ page.position }}</h3>
+<p><em>{{ page.date | date: "%Y %b" }}</em> | <span class="notes"><a href="/roles/{{ page.company }}">{{ page.company }}</a></span></p>
+{%- include tags.md -%}
 
-*problem*
-process / approach
-solution
-*impact*
-reflections
+<hr>
 
 {{ content }}
 
-<p>
-  {{ page.date | date_to_string }}
-  {% assign company = site.company | where: 'position', page.company | first %}
-  {% if company %}
-    - <a href="{{ company.url }}">{{ company.name }}</a>
-  {% endif %}
-</p>
-
-{{ page.categories }}
