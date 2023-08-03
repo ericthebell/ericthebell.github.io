@@ -2,13 +2,18 @@
 layout: tufte
 ---
 
-<h1>{{ page.company }}: {{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 <em>{{ page.context }}</em>
-<h3>{{ page.position }}</h3>
 <p><em>{{ page.date | date: "%Y %b" }}</em> | <span class="notes"><a href="/roles/{{ page.company }}">{{ page.company }}</a></span></p>
 {%- include tags.md -%}
 
 <hr>
+
+<label for="mn-0" class="margin-toggle">&#8853;</label>
+  <input type="checkbox" id="mn-0" class="margin-toggle"/>
+  <span class="marginnote">
+  <strong>Impact</strong>. {{ page.impact }}
+</span>
 
 {{ content }}
 

@@ -6,8 +6,8 @@ date: 2016-06-01
 thumbnail: /assets/images/vineti-mvp-inception.jpg
 team: 
 context: Enabling first pharma customer to get FDA approval for commercial scale launch of 72% efficacy leukemia treatment.
-impact: Delivered ~4,000 patient treatments, established foundation of future platform.
-tags: project startup MVP healthcare
+impact: Delivered ~4,000 patient treatments, while establishing the foundation of Vineti's future platform.
+tags: project startup MVP enterprise healthcare
 ---
 
 ### Problem
