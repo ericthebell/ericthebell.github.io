@@ -21,13 +21,17 @@ excerpt: Hello there! I'm Eric, a digital product and service designer who speci
 
 <!--more--> 
 
-I've spent my career solving information and interaction problems, from "how can this keyboard intuitively teach faster gesture-based typing" to "how might we seamlessly orchestrate the scheduling, hospital collection, shipping, cleanroom manufacturing, and infusion of a drug made with one patient's cells?" Sometimes I'm the first or only designer at a startup, sometimes I come into an existing team and help unify priorities and align processes.
+<!-- 
+I've spent my career solving information and interaction problems, from "how can this keyboard intuitively teach faster gesture-based typing" to "how might we seamlessly orchestrate the scheduling, hospital collection, shipping, cleanroom manufacturing, and infusion of a drug made with one patient's white blood cells?" Sometimes I'm the first or only designer at a startup, sometimes I've come into an existing team and help unify priorities and align processes.
 
-**Design is** the process of intentionally solving a problem. UX is not about looking pretty, it's about solving user problems to achieve business goals. 
-Product design is doing that in the context of a digital product. 
-Service design is about creating that holistic experience across disparate products and touchpoints, supported by behind-the-scenes coordination between multiple internal teams or departments.
+<figure> 
+	elements thumbnail
+</figure>
 
-**What I bring** is a holistic vision of a cross-product experience, and the facilitation to unify a complicated cross-department experience, as well as design mentorship across the team to support those efforts.
+**Design is** the process of measurably solving someone's problem. UX is not about looking pretty, it's about solving user problems to achieve business goals (and looking pretty can be an important part of that solution). _Product design_ is doing that in the context of a digital product. _Service design_ is about creating that holistic experience across disparate products and touchpoints, supported by behind-the-scenes coordination between multiple internal teams or departments. Most design disciplines involve a similar bucket of skills and tools, with variations in scale and focus.
+-->
+
+**What I bring** to a team is a holistic vision of a cross-product experience, and the facilitation to unify complicated cross-department experiences, as well as design mentorship to support those efforts.
 
 **I've shipped** three startups from soup to nuts, optimized existing products, and I visualizing and aligning product strategy and execution. I have a bad habit of sticking through a project until it succeeds or dies under my feet.
 
@@ -91,6 +95,8 @@ The last six years I spent leading the design team at [Vineti](https://vineti.co
 ## Accolades
 
 I shy away from trumpeting myself, but my colleagues do seem to keep saying nice things about me.
+
+Jag Stuart Borrys
 
 
 
