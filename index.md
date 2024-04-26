@@ -15,7 +15,7 @@ header: Holistic product & service design, or, making complexity feel simple
 
 I've worked across entereprise, startups, consultancies, on local and remote teams distributed across San Francisco to Singapore, France to Armenia. Right now I'm looking for a distributed team with a culture of intentional collaboration.
 
-Using this site to practice [learning in public](https://www.swyx.io/learn-in-public/), and enjoying the [structure of Jekyll](https://github.com/ericthebell/ericthebell.github.io) as I revamp an archaic [tumblr site](https://ericthebell.info).
+Currently using this site to practice [learning in public](https://www.swyx.io/learn-in-public/), and enjoying the [structure of Jekyll](https://github.com/ericthebell/ericthebell.github.io) as I revamp an archaic [tumblr site](https://ericthebell.info).
 
 <hr>
 
