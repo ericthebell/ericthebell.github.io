@@ -40,6 +40,7 @@ remote_theme: jekyll/minima
 header_pages:
   - portfolio.md
   - talks.md
+  - offerings.md
 #  - blog.md
   - about.md
 
@@ -54,7 +55,7 @@ minima:
     - { platform: mastodon,  user_url: "https://indieweb.social/@ericthebell" }
     - { platform: twitter, user_url: "https://twitter.com/ericthebell" }
     - { platform: github, user_url: "https://github.com/ericthebell" }
-    - { platform: pdf, user_url: "assets/EricBell_Resume_2022.pdf"}
+    - { platform: pdf, user_url: "assets/EricBell_Resume_2024.pdf"}
     #twitter: ericthebell
     #github: ericthebell
     #instagram: ericthebell

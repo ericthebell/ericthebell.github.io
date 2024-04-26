@@ -17,7 +17,7 @@ excerpt: Hello there! I'm Eric, a digital product and service designer who speci
 	</span>
 </div>
 
-**Hello there!** I'm Eric, a digital product and service designer who came out of library science. I'm a UX generalist who specializes in complex, behind-the-scenes challenges that span multiple user groups or internal teams. 
+**Hello there!** I'm Eric, a design leader and product strategist. I've focused on digital product and service design, specializing in complex, behind-the-scenes challenges that span multiple user groups or internal teams. 
 
 <!--more--> 
 
@@ -96,7 +96,39 @@ The last six years I spent leading the design team at [Vineti](https://vineti.co
 
 I shy away from trumpeting myself, but my colleagues do seem to keep saying nice things about me.
 
-Jag Stuart Borrys
+### [Stuart Altman](https://www.linkedin.com/in/stuartaltman/)
+**Head of Product @ Simple HealthKit** | *February 6, 2023*
 
+> I have had the pleasure of collaborating closely with Eric for more than six years. Eric was the founding member of the Product Design group at Vineti (a high-growth, venture backed healthcare start-up.) He was instrumental in helping to differentiate the Vineti product by championing and driving a user-centered design philosophy. Eric also played a critical role in developing new and innovative intellectual property within a nascent new product category.
+>
+> Eric has navigated the ups and downs of a healthtech startup journey with grace; he joined the company at seed stage with less than 10 people and helped scale the company to more than 250 globally as a post-Series C business. I cannot recommend Eric highly enough as a talented, strategic, and results-oriented design leader. His deep expertise across service design, information systems, 0 to 1 product building, and 1 to n product scaling speaks for itself from his vast body of work.
 
+### [Borrys Hasian](https://www.linkedin.com/posts/borryshasian_i-dont-think-as-an-introvert-heading-activity-7037276830512406528-MnfO)
+**Product Designer. Designed successful & award-winning apps used by millions of people.** | *March 2, 2023*
+
+> "I don't think, as an introvert, heading Design Team is my thing."
+> 
+> "You can be a good quiet leader." 
+> 
+> Looking back, it's astonishing to think, how a short encouraging sentence would change someone's career path for the better.
+>
+> For this, I thank Eric Bell for being that person: the one who believed in my ability to drive positive changes at Rakuten Viki, even when I didn't believe in myself.
+
+### [Greg Jagiello](https://www.linkedin.com/in/gjagiello/)
+**Seasoned product design leader** | *March 15, 2023*
+
+> I'd work again with Eric gladly, and while there are many reasons I recommend you also work with him, I'm going to focus on his ability to understand, document, and communicate about complex systems to the benefit of the entire company.
+>
+> My experience with Eric was three+ years at Vineti, where Eric was extremely effective at learning about our customer's entire workflow, and most importantly, at communicating this across all teams, not just design or product. The complexity included cold supply chain issues for cell and gene therapy cancer treatments, and the product journey included over a dozen different end users.
+>
+> Eric is masterful at bringing the right information into the right visual format for broad comprehension. If he doesn't already have a facilitation approach for a specific situation, he is adept at making one and getting the right people involved, and being generous with his time to explain the findings to anyone across the company.
+> 
+> This is all on top of his solid design skillset, and what makes him a very strong lead or principal designer. He levels up all other designers, as well, as a patient teacher.
+
+### [Ryan Southwick](https://www.linkedin.com/in/ryan-southwick/)
+**Tech Leader, Extreme Programming Practitioner, Scrum Coach, and Sci Fi Author** | *January 12, 2024*
+
+> I worked with Eric for 6 years at Vineti, where he taught me the true value of Product Design. His conscientious and methodical approach, combined with deep expertise, often wowed our customers during discovery sessions, who had never seen a skilled product designer in action. The role/process maps he created became the centerpiece around which we developed our platform, how we communicated the value and fit of our product within their manufacturing cycle, and how we educated new companies on how to improve their own processes.
+>
+> Eric pioneered and exemplified agile product design in Vineti, preferring to pair with fellow designers as well as engineers and product managers to maximize communication and efficiency. Working with him was always productive and delightful.
 
