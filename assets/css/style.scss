@@ -17,7 +17,13 @@ a.site-title {
   font-weight: 600;
 }
 
-header .site-header {
+header.site-header {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+  background-color: #fffff8; /* Optional: Change this to match your site's color scheme */
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
 }
 
 header .tufte {

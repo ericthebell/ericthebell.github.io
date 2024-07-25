@@ -22,9 +22,9 @@ I’ve solved a wide range of design and research problems over the past 15 year
 
 My past 15 years I’ve spent
 * **working** at 4 `startups`, 1 `enterprise`, 2 `consultancies`; 
-* with **teams** in `US, Japan, Armenia, Singapore, Qatar, and India`; 
+* with **teams** in `US`, `Japan`, `Armenia`, `Singapore`, `Qatar`, and `India`; 
 * **building** 4 `consumer products` (4 years) and 1 `enterprise platform` (7 years)
-* across **industries** of `regulated healthcare, social media, crowdsourced translation, video streaming,and internationalization projects`.
+* across **industries** of `regulated healthcare`, `social media`, `crowdsourced translation`, `video streaming`,and `internationalization projects`.
 
 Three times I’ve been the `founding designer`, and three times I’ve `built or managed` the design team.
 
@@ -32,11 +32,10 @@ I am **especially passionate** about hiring process design, pair designing, cros
 
 ### **Why _not_ me?** 
 
-There are also some good reasons why my experiences may not be an automatic fit for your needs. The ability to
+There are also some good reasons why my experiences may not be an automatic fit for your needs. While my strengths include the ability to dive into new domains and leverage that outside perspective as I ramp up, there are areas where my lack of experience may be relevant.
 
-**Larger bureaucracies**. I’ve spent most of my career in smaller organizations (&lt;20 design teams, &lt;500 org size), so while my insights will still be relevant to scaled organizations, navigating bureaucracies is not my most practiced skill. 
-
-**Change management at scale**. Identifying and solving operational and cultural inefficiencies I can do, but I am not the person to roll out a slow, phased, effort to change employee behavior across a large organization.
+* **Larger bureaucracies**. I’ve spent most of my career in smaller organizations (&lt;20 design teams, &lt;500 org size), so while my insights will still be relevant to scaled organizations, navigating bureaucracies is not my most practiced skill. 
+* **Change management at scale**. Identifying and solving operational and cultural inefficiencies I can do, but I am not the person to roll out a slow, phased, effort to change employee behavior across a large organization.
 
 ## Services offered
 
@@ -68,4 +67,4 @@ _Digital products, service blueprinting, and information architecture._
 
 **Outcome**. Alignment between leadership and design team about
 
-## Let’s talk.
+## [Let’s talk.](https://cal.com/ericthebell/office-hours)

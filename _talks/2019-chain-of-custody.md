@@ -8,7 +8,7 @@ formal: Using Service Design to Solve Physical Custody for Personalized Cancer T
 context: Design 4 Healthcare lightning talks event at Vineti's offices in San Francisco
 date: 2019-11-01
 dateshow: 2019 Nov
-thumbnail: [image]
+thumbnail: /assets/images/COC-handoff-patterns.png
 embed: 
 label: 
 link: 

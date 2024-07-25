@@ -10,10 +10,7 @@ position: Principal Product Designer
 location: San Francisco, then nomadic
 date: 2022-08-23
 dateshow: 2016-2022
-tags:
-- startup
-- enterprise
-- healthcare
+tags: startup enterprise healthcare cell-therapy supply-chain logistics
 summary: Vineti was founded to solve the key challenges faced by patients, medical providers, pharmaceutical companies, and regulators in the delivery and commercialization of personalized medicine. Over six years, we became the proven clinical-to-commercial platform for cell & gene therapy supply chain management and delivered curative treatments to over 5,000 patients. 
 industry: Health tech
 impact: Delivered 5k patient treatments with 16 pharma customers across 26 disease
@@ -22,10 +19,6 @@ exit: Platform acquisition, partial team acqui-hire
 ---
 
 Vineti was founded to solve the key challenges faced by patients, medical providers, pharmaceutical companies, and regulators in the delivery and commercialization of personalized medicine. Over six years, Vineti became the proven clinical-to-commercial platform for cell & gene therapy supply chain management. 
-
-<!--more--> 
-
-Role. From the ground up, I researched, designed, prototyped, expanded and scaled the configurable, cross-channel patient treatment logistics platform. Worked with balanced teams and mentored growing design team throughout.
 
 ### Cell & Gene Therapy
 
@@ -53,4 +46,4 @@ Software acquired by Johnson & Johnson to continue supporting their global comme
 
 ### Role
 
-From the ground up, **researched, designed, prototyped, expanded** and **scaled** the configurable, cross-channel patient treatment logistics platform. Worked with **balanced teams** and **mentored** growing design team throughout.
+**Principal Product Designer**. From the ground up, **researched, designed, prototyped, expanded** and **scaled** the configurable, cross-channel patient treatment logistics platform. Worked with **balanced teams** and **mentored** growing design team throughout.

@@ -3,10 +3,11 @@ layout: project
 title: End-to-end platform patterns
 company: Vineti
 date: 2018-06-01
+thumbnail: /assets/images/
 team: 
-context: 
-impact: 
-tags: 
+context: Extending platform functionality and establishing configurable patterns.
+impact: Expanded coverage to any autologous customer, launched a reusable baseline offering.
+tags: project startup enterprise healthcare platform configuration
 ---
 
 **Project:**
