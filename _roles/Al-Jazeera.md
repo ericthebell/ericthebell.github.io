@@ -3,7 +3,7 @@ title: Al Jazeera Digital
 layout: role
 company: Al Jazeera
 logo: /assets/images/AJMN-logo.png
-thumbnail: /assets/images/AJ-UMP-comparison.png
+thumbnail: /assets/images/AJMN-logo.png
 tagline: Overhauling a mobile app while mentoring the product design team
 position: Lead Product Designer
 location: Qatar time, remote
@@ -23,6 +23,8 @@ Al Jazeera's digital team works to support mustiple edutorial bureaus working oc
 ### Approach
 
 **Mobile baseline evaulation and scoping**. Conducting a thorough review of the mobile experience, including heuristic evaluation, user flow analytics, stakeholder interviews. Identified biggest impact opportunities, and scoped high priority project areas and strategic approaches for each.
+
+<img src="/assets/images/AJ-UMP-comparison.png">
 
 **Priority projects execution**. Executed on top slice MVPs of highest priority projects. Including building a Figma design system from scratch to align mobile app branding and style with web, filling functionality gaps between mobile and web, addressing critical mobile usability issues, and optimizing the onboarding experience.  
 
