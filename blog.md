@@ -2,24 +2,11 @@
 layout: default
 title: thoughts
 header: Sunsets from trains
-subtitle: A trains & cats person in the land of cars & dogs
+subtitle: A trains & cats information nerd
 permalink: /blog
 ---
 
 # {{ page.header }}
-
-## Latest thoughts
-
-<ul>
-  {% for post in site.posts %}
-  {% assign sortedPosts = site.posts | sort: 'date' %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
-
 
 <div class="home">
   {% if site.paginate %}
@@ -27,7 +14,6 @@ permalink: /blog
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
-
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
@@ -37,15 +23,13 @@ permalink: /blog
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
+        <div class="post-meta">{{ post.date | date: "%Y %b %d"}}</div>
+        <h4>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        </h4>
+        {{ post.summary }}
       </li>
       {%- endfor -%}
     </ul>

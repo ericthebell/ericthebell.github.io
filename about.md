@@ -38,10 +38,10 @@ I've spent my career solving information and interaction problems, from "how can
 <figure class="fullwidth">
 	<label for="mn-2" class="margin-toggle">⊕</label>
 	<input type="checkbox" id="mn-2" class="margin-toggle">
-	<img src="/assets/images/career-timeline-simple.png" alt="career timeline">
+	<img src="/assets/images/career-timeline-minimal.jpg" alt="career timeline">
 </figure>
 
-The last six years I spent leading the design team at [Vineti](https://vineti.com/), where we built a platform to orchetsrate the next generation of cell nd gene therapy treatments. Before that I directed product design on the Rakuten Manga project, a platform for fans to translate digital comics into their own language, and I formed and facilitated the design team at Viki, a Rakuten subsidiary. I've worked at a small social media startup, design agencies in Tokyo and Seattle, and designed the Japanese input methods for Microsoft's erstwhile Windows Phone 7.
+**This past year** I supported [Al Jazeera's digital team](/roles/Al-Jazeera) to improve their design strategy and team processes. Recently, I spent six years leading the design team at [Vineti](/roles/Vineti), where we built a platform to orchetsrate the next generation of cell nd gene therapy treatments. Before that I directed product design on the Rakuten Manga project, a platform for fans to translate digital comics into their own language, and I formed and facilitated the design team at Viki, a Rakuten subsidiary. I've worked at a small social media startup, design agencies in Tokyo and Seattle, and designed the Japanese input methods for Microsoft's erstwhile Windows Phone 7.
 
 <div class="marknote">
 <label for="mn-3" class="margin-toggle">&#8853;</label>
@@ -51,9 +51,13 @@ The last six years I spent leading the design team at [Vineti](https://vineti.co
 	</span>
 </div>
 
-**Currently I'm looking** for *complex system & service problems* to work on, an *established design team* to learn from & mentor, who are *geographically distributed* with intentional onsites. 
+**Currently** I'm working on building out [HyeTech's](https://hyetech.io) operations with our small team, to better support connecting tech leaders and entrepreneurs.
 
-<!-- **I design things** based on the people who use them. I’m particularly good at wrapping my head around novel systems and making complexity understandable to its audience. I see most of these situations as information problems. My specialties are Interaction Design and Information Architecture. I approach products, services, and cross-channel experiences holistically. -->
+I'm also open for part time consulting engagements on . Check out my [offerings](/offerings) and [drop me a line](https://cal.com/ericthebell/office-hours).
+
+<!-- I'm looking for *complex system & service problems* to work on, an *established design team* to learn from & mentor, who are *geographically distributed* with intentional onsites. 
+
+**I design things** based on the people who use them. I’m particularly good at wrapping my head around novel systems and making complexity understandable to its audience. I see most of these situations as information problems. My specialties are Interaction Design and Information Architecture. I approach products, services, and cross-channel experiences holistically. -->
 
 <hr>
 

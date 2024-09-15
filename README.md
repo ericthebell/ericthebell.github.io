@@ -20,21 +20,22 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [x] showcase tag section thumbnail row
 - [x] WIP alert or something ("latest change" note?)
 - [x] home layout, article layout separate CSS
-- [ ] realign header and footer to uniform width for both layouts
+- [x] realign header and footer to uniform width for both layouts
 - [x] figure out Tufte images CSS
 - [x] redirect ericthebell.com
 - [ ] role pages content & images
 - [ ] projects pages content & images
 - [ ] thumbnails for everything
-- [ ] accolades on About page
+- [x] accolades on About page
 - [ ] better focused expertise & goals
 - [ ] collection pages for `tag`s
+- [ ] tag filterable view (projects, talks, roles)
 - [ ] second pass CSS styling
 - [ ] thumbnail grid tiling
 - [ ] portfolio page with tag filterable view (projects, talks, roles)
 - [ ] rename `portfolio` roles list to `career`
 - [ ] content management for Jekyll collections
-- [ ] add a blog?
+- [ ] restore blog page and update posts layout
 
 ## config
 

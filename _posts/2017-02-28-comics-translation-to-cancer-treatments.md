@@ -2,7 +2,7 @@
 layout: post
 title: Comics translation to cancer treatments, a year in review
 date: 2017-Feb-28 18:52:00 -000
-summary: For my work life, 2016 was a year of transitions and contrasts
+summary: For my work life, 2016 was a year of transitions and contrasts.
 tags: startup healthtech career
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: talk
 title: Design for Conversion
+company: Viki
 summary: Short presentation on common conversion flow patterns and approaches for tackling them.
 formal: 
 context: Speaker for an event hosted by Orange Hive accelerator in Singapore.

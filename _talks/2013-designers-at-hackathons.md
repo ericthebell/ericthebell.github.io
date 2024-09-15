@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Designers @ Hackathons
-company: Hackathon
+company: Side projects
 summary: Talk at the IxDA event <a href="https://ixdasf.ning.com/events/ux-in-space-vol-2">UX in Space, Vol 2</a>, an event for design challenges in unusual contexts.
 
 formal: Designers @ Hackathons

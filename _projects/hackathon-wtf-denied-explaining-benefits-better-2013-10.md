@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'WTF Denied: Explaining benefits better'
-company: Hackathon
+company: Side projects
 date: '2013-10-02T13:05:00-04:00'
 thumbnail: /assets/images/hack-wtf-thumb.png
 tags:

@@ -26,23 +26,31 @@ header.site-header {
   /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
 }
 
+header .wrapper {
+  max-width: calc(800px -(30px));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 header .tufte {
-  padding: 0 0 0 12.5%;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding: 0 12.5% 0 12.5%;
+  /* padding-right: 30px;
+  padding-left: 30px; */
   margin-right: auto;
   margin-left: auto;
 }
 
 body {
-  /* width: 87.5%; */
+  /* width: 87.5%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   font-family: Merriweather Sans, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   font-weight: 300;
   background-color: #fffff8;
   color: #111;
-  max-width: 1400px;
+  /* max-width: 1400px; */
   counter-reset: sidenote-counter;
 }
 
@@ -87,6 +95,14 @@ h3 {
   line-height: 1.3;
 }
 
+h4 {
+  font-family: Merriweather;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.3;
+}
 .tufte hr {
   width: 55%;
 }
@@ -154,6 +170,12 @@ a {
 
 header a{
   border: none;
+}
+
+.site-nav .page-link {
+  color: #111111;
+  line-height: 1.5;
+  padding: 17px 10px 19px 10px;
 }
 
 a:hover {

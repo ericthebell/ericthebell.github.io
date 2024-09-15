@@ -25,6 +25,10 @@ author:
   name: Eric Bell
   email: 
 
+# Add your copyright policy here
+copyright: "CC BY-SA 4.0"
+cc_license: "https://creativecommons.org/licenses/by-sa/4.0/"
+
 title: Eric Bell
 description: > # It will appear in your document head meta (for Google search results) and in your feed.xml site description.
   Holistic product and service design, making complexity feel simple. <a href="/assets/EricBell_Resume_2024.pdf">Resume (PDF)</a>
@@ -41,8 +45,8 @@ header_pages:
   - portfolio.md
   - talks.md
   - offerings.md
-#  - blog.md
   - about.md
+  - blog.md
 
 # 3.0 notes
 # Also, I can specify the skin now!
@@ -86,6 +90,11 @@ defaults:
       type: "talks"
     values:
       layout: "talk"
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
 
 collections: # blog is automatic collection of posts
   roles:

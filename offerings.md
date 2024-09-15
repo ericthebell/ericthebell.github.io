@@ -1,5 +1,5 @@
 ---
-layout: tufte
+layout: default
 title: offerings
 header: Offerings & Services
 # permalink: /offerings
