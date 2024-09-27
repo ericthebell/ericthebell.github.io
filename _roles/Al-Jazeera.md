@@ -32,11 +32,9 @@ Al Jazeera's digital team works to support mustiple edutorial bureaus working oc
 
 ### Impact
 
-Aligned the mobile app experience with established branding and created a design system to enforce consistent patterns going forward.
-
-Designed and supported implementation of the top slice of high priority projects on a short timeline.
-
-Introduced design team processes for collaboration and alignment, and paired with product managers and engineers across teams to practice design thinking.
+- Aligned the mobile app experience with established branding and created a design system from scratch to enforce consistent patterns going forward.
+- Designed and supported implementation of the top slice of high priority projects on a short timeline.
+- Introduced design team processes for collaboration and alignment, and paired with product managers and engineers across teams to practice design thinking.
 
 ### Team & role
 

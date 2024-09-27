@@ -34,7 +34,7 @@ description: > # It will appear in your document head meta (for Google search re
   Holistic product and service design, making complexity feel simple. <a href="/assets/EricBell_Resume_2024.pdf">Resume (PDF)</a>
 # email: your-email@example.com
 
-url: "https://ericthebell.github.io" # (optional) https://example.com, defaults to http://localhost:4000 in development
+url: "https://ericthebell.com" # (optional) https://example.com, defaults to http://localhost:4000 in development
 permalink: "/:categories/:title" # how your URLs are built, see https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles
 logo: eric_viki.png
 
@@ -52,7 +52,7 @@ header_pages:
 # Also, I can specify the skin now!
 minima:
   skin: classic
-  date_format: "%Y-%m-%d %H:%M"
+  date_format: "%Y %b %d"
   social_links:
     - { platform: linkedin, user_url: "https://linkedin.com/in/ericthebell" }
     - { platform: instagram, user_url: "https://instagram.com/ericthebell" }
@@ -91,10 +91,15 @@ defaults:
     values:
       layout: "talk"
   - scope:
+      type: "tags"
+    values:
+      layout: "tag"
+  - scope:
       path: "_posts"
       type: "posts"
     values:
       layout: "post"
+      permalink: /blog/:title/
 
 collections: # blog is automatic collection of posts
   roles:
@@ -105,9 +110,11 @@ collections: # blog is automatic collection of posts
     output: true # collection per talk
   tags: 
     output: true # page for each post, talk, or project tag
-    permalink: tags/:path/
-    # try https://blog.lunarlogic.io/2019/managing-tags-in-jekyll-blog-easily/
-    # or https://jameshfisher.com/2019/05/05/how-can-i-add-tags-to-a-jekyll-blog/
+    permalink: /tags/:name/
+  # drafts:
+  #   output: true
+  # try https://blog.lunarlogic.io/2019/managing-tags-in-jekyll-blog-easily/
+  # or https://jameshfisher.com/2019/05/05/how-can-i-add-tags-to-a-jekyll-blog/
   
 jekyll_admin:
 #  hidden_links:
@@ -125,6 +132,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-tagging
 
 # Exclude from processing.
 # The following items will not be processed, by default.

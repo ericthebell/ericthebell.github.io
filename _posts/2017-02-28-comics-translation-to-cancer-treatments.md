@@ -2,8 +2,14 @@
 layout: post
 title: Comics translation to cancer treatments, a year in review
 date: 2017-Feb-28 18:52:00 -000
+modified_date: 
+author: Eric Bell
+orig_pub_url: https://medium.com/@ericthebell/comics-translation-to-cancer-treatments-a-year-in-review-c2f23e3026b7
+orig_pub_label: Medium
 summary: For my work life, 2016 was a year of transitions and contrasts.
-tags: startup healthtech career
+thumbnail:
+tags: [startup, health-tech, career, Vineti, Viki]
+company: Vineti
 ---
 
 For my work life, 2016 was a year of transitions and contrasts.

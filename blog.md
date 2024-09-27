@@ -2,11 +2,12 @@
 layout: default
 title: thoughts
 header: Sunsets from trains
-subtitle: A trains & cats information nerd
+subtitle: Periodic notes and reflections
 permalink: /blog
 ---
 
 # {{ page.header }}
+_{{ page.subtitle }}_
 
 <div class="home">
   {% if site.paginate %}
@@ -21,19 +22,27 @@ permalink: /blog
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <div class="post-meta">{{ post.date | date: "%Y %b %d"}}</div>
-        <h4>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h4>
-        {{ post.summary }}
-      </li>
-      {%- endfor -%}
+        {%- for post in posts -%}
+          {% if post.drafting != true %}
+            <li>
+              <div class ="row-block">
+                <div class="row-text">
+                  <div class="post-meta">{{ post.date | date: "%Y %b %d"}}</div>
+                  <h4><a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                  </a></h4>
+                  <p>{{ post.summary }}</p>
+                </div>
+                {% if post.thumbnail %}
+                <div class="row-thumb">
+                    <img src="{{ post.thumbnail }}" alt="{{ post.summary }}">
+                </div>
+                {% endif %}
+              </div>
+            </li>
+          {% endif %}
+        {%- endfor -%}
     </ul>
-
     {% if site.paginate %}
       <div class="pager">
         <ul class="pagination">

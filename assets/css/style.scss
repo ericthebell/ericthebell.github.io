@@ -6,7 +6,7 @@
   "/assets/css/tufte-notes.css",
   "/assets/css/banner.css",
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize"; 
+  "minima/initialize";
 
 .site-logo {
   border-radius: 50%;
@@ -115,10 +115,26 @@ p {
   vertical-align: baseline;
 }
 
-.tufte p {
+.tufte article > div > p {
   width: 55%;
 }
 
+article.tufte > p {
+  width: 55%;
+}
+
+.tufte ul {
+  width: 55%;
+}
+
+.excerpts p {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.tufte blockquote {
+  width: 55%;
+}
 p.tags {
   font-size: 0.9rem;
 }
@@ -144,7 +160,18 @@ figure {
     -webkit-margin-end: 0;
     margin: 0 0 3em 0;
 }
-
+figure .marginnote,
+figure .sidenote {
+  float: right;
+  clear: right;
+  margin-right: -60%;
+  width: 50%;
+  margin-top: 0;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  vertical-align: baseline;
+  position: relative;
+}
 figcaption {
     float: right;
     clear: right;
@@ -164,7 +191,7 @@ figure.fullwidth figcaption {
 a {
   color: #f55b2c;
   border-bottom: 1px solid #e0e2e1;
-  margin-top: -1px;
+  /* margin-top: -1px; */
   padding: 1px 2px;
 }
 
@@ -188,6 +215,27 @@ a:hover {
 
 a:visited {
   color: #ba2e04;
+}
+
+/* blog posts */
+
+.post-link {
+  display: inline;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-size: 1.1rem; /* tufte 1.4rem */
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  padding-right: 0;
+  vertical-align: baseline;
+}
+
+.tufte .nav-links {
+  width: 55%;
 }
 
 /* header area logo */
@@ -229,9 +277,9 @@ a:visited {
 
 .row-thumb {
   display: flex; /* Makes thumbnail match the height of .role-text */
-  /* flex-basis: 33%; This will take up to 1/3 of the width */
-  flex-basis: fit-content;
-  padding: 15px;
+  flex-basis: 33%; /* This will take up to 1/3 of the width */
+  /* flex-basis: fit-content; */
+  padding: 0px 15px 0px 15px;
 }
 
 .row-thumb img {

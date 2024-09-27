@@ -21,36 +21,30 @@ layout: tufte
 
 <hr>
 
-<h2>{{ page.company }} projects</h2>
-{% assign role_project = site.projects | where: 'company', page.company %}
-{% for project in role_project %}
-  <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
-  <label for="mn-1" class="margin-toggle">&#8853;</label>
-      <input type="checkbox" id="mn-1" class="margin-toggle"/>
+{% assign role_items = site.projects | concat: site.talks | concat: site.posts | where: 'company', page.company | sort: 'date' | reverse %}
+
+{% if role_items.size > 0 %}
+  <h2>{{ page.company }} posts</h2>
+{% endif %}
+
+{% for item in role_items %}
+  <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+  <label for="mn-{{ forloop.index }}" class="margin-toggle">&#8853;</label>
+      <input type="checkbox" id="mn-{{ forloop.index }}" class="margin-toggle"/>
       <span class="marginnote">
-      <img src="{{ project.thumbnail | default: '/assets/images/eric_viki.png' }}" alt="{{ project.company }}">
+      <img src="{{ item.thumbnail | default: '/assets/images/eric_viki.png' }}" alt="{{ item.company }}">
   </span>
-  <div class ="">
+  <div class="post-meta">{{ item.collection | capitalize }} | {{ item.date | date: "%Y %b %d"}}</div>
+  <div class="excerpts">
     <div class="row-text">
-      <p><strong>Context:</strong> {{ project.context }}</p>
-      <p><strong>Impact:</strong> {{ project.impact }}</p>
+      {% if item.collection == 'projects' %}
+        <p><strong>Context:</strong> {{ item.context }}<br/>
+        <strong>Impact:</strong> {{ item.impact }}</p>
+      {% elsif item.collection == 'talks' %}
+        <p>{{ item.context }}</p>
+      {% elsif item.collection == 'posts' %}
+        <p>{{ item.excerpt }}</p>
+      {% endif %}
     </div>
   </div>
 {% endfor %}
-
-<h2>Talks at {{ page.company }}</h2>
-{% assign role_talk = site.talks | where: 'company', page.company %}
-{% for talk in role_talk %}
-  <h3><a href="{{ talk.url }}">{{ talk.title }}</a></h3>
-  <label for="mn-1" class="margin-toggle">&#8853;</label>
-      <input type="checkbox" id="mn-1" class="margin-toggle"/>
-      <span class="marginnote">
-      <img src="{{ talk.thumbnail | default: '/assets/images/eric_viki.png' }}" alt="{{ talk.company }}">
-  </span>
-  <div class ="">
-    <div class="row-text">
-      <p>{{ talk.context }}</p>
-    </div>
-  </div>
-{% endfor %}
-

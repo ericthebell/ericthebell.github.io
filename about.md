@@ -9,14 +9,9 @@ excerpt: Hello there! I'm Eric, a digital product and service designer who speci
 
 # {{ page.header }}
 
-<div class="marknote">
 <label for="mn-1" class="margin-toggle">&#8853;</label>
-	<input type="checkbox" id="mn-1" class="margin-toggle"/>
-	<span class="marginnote">
-		<img src="/assets/images/eric_chops.png" style="border-radius: 50%;">
-	</span>
-</div>
-
+<input type="checkbox" id="mn-1" class="margin-toggle"/>
+<span class="marginnote"><img src="/assets/images/eric_chops.png" style="border-radius: 50%;"></span>
 **Hello there!** I'm Eric, a design leader and product strategist. I've focused on digital product and service design, specializing in complex, behind-the-scenes challenges that span multiple user groups or internal teams. 
 
 <!--more--> 
@@ -33,7 +28,7 @@ I've spent my career solving information and interaction problems, from "how can
 
 **What I bring** to a team is a holistic vision of a cross-product experience, and the facilitation to unify complicated cross-department experiences, as well as design mentorship to support those efforts.
 
-**I've shipped** three startups from soup to nuts, optimized existing products, and I visualizing and aligning product strategy and execution. I have a bad habit of sticking through a project until it succeeds or dies under my feet.
+**I've shipped** three startups from soup to nuts, optimized existing products and team processes, and I excel at visualizing and aligning product strategy and execution. 
 
 <figure class="fullwidth">
 	<label for="mn-2" class="margin-toggle">⊕</label>
@@ -43,14 +38,11 @@ I've spent my career solving information and interaction problems, from "how can
 
 **This past year** I supported [Al Jazeera's digital team](/roles/Al-Jazeera) to improve their design strategy and team processes. Recently, I spent six years leading the design team at [Vineti](/roles/Vineti), where we built a platform to orchetsrate the next generation of cell nd gene therapy treatments. Before that I directed product design on the Rakuten Manga project, a platform for fans to translate digital comics into their own language, and I formed and facilitated the design team at Viki, a Rakuten subsidiary. I've worked at a small social media startup, design agencies in Tokyo and Seattle, and designed the Japanese input methods for Microsoft's erstwhile Windows Phone 7.
 
-<div class="marknote">
 <label for="mn-3" class="margin-toggle">&#8853;</label>
-	<input type="checkbox" id="mn-3" class="margin-toggle"/>
-	<span class="marginnote">
+<input type="checkbox" id="mn-3" class="margin-toggle"/>
+<span class="marginnote">
 	<strong>I'm passionate</strong> about many topics, and I'm a sucker for diving into a new industry. Some special interests include healthcare, crowdsourcing, security, process design, team hiring/interviewing, system modeling, guerrilla research, design patterns, hackathons.
-	</span>
-</div>
-
+</span>
 **Currently** I'm working on building out [HyeTech's](https://hyetech.io) operations with our small team, to better support connecting tech leaders and entrepreneurs.
 
 I'm also open for part time consulting engagements on . Check out my [offerings](/offerings) and [drop me a line](https://cal.com/ericthebell/office-hours).
@@ -63,15 +55,13 @@ I'm also open for part time consulting engagements on . Check out my [offerings]
 
 ## Working together
 
-<div class="marknote">
-<label for="mn-4" class="margin-toggle">&#8853;</label>
-	<input type="checkbox" id="mn-4" class="margin-toggle"/>
-	<span class="marginnote">
-		<img src="/assets/images/about-focus.jpg">
-	</span>
-</div>
-
 ### Team dynamics
+
+<label for="mn-4" class="margin-toggle">&#8853;</label>
+<input type="checkbox" id="mn-4" class="margin-toggle"/>
+<span class="marginnote">
+	<img src="/assets/images/about-focus.jpg">
+</span>
 **Feedback**. Is a gift. Sharing or receiving, nothing is personal. Everything is a data point towards insights to align impact with goals.
 
 **Conflict**. We are a team not a family. Let's confront our disagreements constructively rather than avoid the conflict.
