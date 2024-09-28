@@ -362,10 +362,12 @@ a:visited {
     hr,
     section > p,
     section > footer,
-    section > table {
+    section > table,
+    article.tufte > p,
+    .tufte article > div > p {
         width: 100%;
     }
-
+    
     pre > code {
         width: 97%;
     }

@@ -23,16 +23,16 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [x] realign header and footer to uniform width for both layouts
 - [x] figure out Tufte images CSS
 - [x] redirect ericthebell.com
-- [ ] role pages content & images
+- [x] second pass CSS styling
+- [x] role pages content & images
+- [ ] why are github actions running twice
 - [ ] projects pages content & images
 - [ ] thumbnails for everything
 - [x] accolades on About page
-- [ ] better focused expertise & goals
 - [ ] collection pages for `tag`s
-- [ ] tag filterable view (projects, talks, roles)
-- [ ] second pass CSS styling
+- [ ] better focused expertise & goals
+- [ ] tag filterable portfolio view (projects, talks, roles)
 - [ ] thumbnail grid tiling
-- [ ] portfolio page with tag filterable view (projects, talks, roles)
 - [ ] rename `portfolio` roles list to `career`
 - [ ] content management for Jekyll collections
 - [ ] restore blog page and update posts layout
