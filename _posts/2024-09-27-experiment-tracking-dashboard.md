@@ -5,8 +5,6 @@ drafting:
 date: '2024-9-27'
 modified_date: null
 author: Eric Bell
-orig_pub_url: null
-orig_pub_label: null
 summary: A Figma Slides template for tracking your lean startup experiments.
 thumbnail: "/assets/images/experiments-template.jpg"
 tags:

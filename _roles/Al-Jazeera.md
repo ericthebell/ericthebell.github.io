@@ -23,7 +23,7 @@ Al Jazeera's digital team works to support mustiple edutorial bureaus working oc
 ### Approach
 
 **Mobile baseline evaulation and scoping**. Conducting a thorough review of the mobile experience, including heuristic evaluation, user flow analytics, stakeholder interviews. Identified biggest impact opportunities, and scoped high priority project areas and strategic approaches for each.
-
+<!--
 [eval overview] So much visual synthesis.
 
 **Mobile overhaul and design system**. 
@@ -43,14 +43,14 @@ Al Jazeera's digital team works to support mustiple edutorial bureaus working oc
   <img src="/assets/images/AJ-UMP-comparison.png" alt="Al Jazeera mobile before after">
   Before anda after
 </span>
-
+-->
 **Priority projects execution**. Executed on top slice MVPs of highest priority projects. Including building a Figma design system from scratch to align mobile app branding and style with web, filling functionality gaps between mobile and web, addressing critical mobile usability issues, and optimizing the onboarding experience.  
 
-[fire list]
+<!-- [fire list] -->
 
 **Team coaching**. Paired with individual designers across teams, introduced new team processes to improve collaboration and alignment, and encouraged team collaboration on design system creation.
 
-[design file? or n/a]
+<!-- [design file? or n/a] -->
 
 ### Impact
 
