@@ -9,7 +9,7 @@ position: Lead Product Designer
 location: Qatar time, remote
 date: 2023-08-01
 dateshow: 2023-2024
-tags: news mobile research revamp design-system
+tags: [mobile, news, research, strategy, design system]
 summary: Creating a multi-year vision for a controversial mobile app, while providing mentorship and process leadership on the design team.
 industry: News media
 ---

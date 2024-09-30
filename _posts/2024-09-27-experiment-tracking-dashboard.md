@@ -8,10 +8,10 @@ author: Eric Bell
 summary: A Figma Slides template for tracking your lean startup experiments.
 thumbnail: "/assets/images/experiments-template.jpg"
 tags:
+- template
 - startup
 - lean
 - experiments
-- template
 - HyeTech
 company: HyeTech
 ---

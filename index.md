@@ -8,15 +8,61 @@ header: Holistic product & service design, or, making complexity feel simple
 ---
 
 # Making complexity feel simple
+
 ### Holistic product & service design
 
 {% assign about_excerpt = site.pages | where: "name", "about.md" | first %}
 {{ about_excerpt.excerpt }}<br/>
 
-I've worked across entereprise, startups, consultancies, on local and remote teams distributed across San Francisco to Singapore, France to Armenia. Right now I'm looking for a distributed team with a culture of intentional collaboration.
+<!-- I've worked across entereprise, startups, consultancies, on local and remote teams distributed across San Francisco to Singapore, France to Armenia. Right now I'm looking for a distributed team with a culture of intentional collaboration. -->
 
-Currently using this site to practice [learning in public](https://www.swyx.io/learn-in-public/) and play around with the [structure of Jekyll](https://github.com/ericthebell/ericthebell.github.io) as I rebuild an archaic tumblr site.
+Currently I'm using this site to practice [learning in public](https://www.swyx.io/learn-in-public/) and play around with the [structure of Jekyll](https://github.com/ericthebell/ericthebell.github.io) while I work on growing [HyeTech](https://hyetech.io/).
 
+<hr>
+
+## What I've been up to lately
+
+{% assign last_project = site.projects | sort: 'date' | reverse | first %}
+{% assign last_talk = site.talks | sort: "date" | reverse | first %}
+{% assign last_role = site.roles | sort: "date" | reverse | first %}
+{% assign last_post = site.posts | sort: "date" | reverse | first %}
+
+{% assign recent_stuff = "" | split: "" %} <!-- Initialize as empty array -->
+
+<!-- Then assign items -->
+{% if last_project %}
+  {% assign recent_stuff = recent_stuff | push: last_project %}
+{% endif %}
+{% if last_talk %}
+  {% assign recent_stuff = recent_stuff | push: last_talk %}
+{% endif %}
+{% if last_role %}
+  {% assign recent_stuff = recent_stuff | push: last_role %}
+{% endif %}
+{% if last_post %}
+  {% assign recent_stuff = recent_stuff | push: last_post %}
+{% endif %}
+
+{% assign recent_stuff_sorted = recent_stuff | sort: 'date' | reverse %}
+
+<ul class="post-list">
+{% for item in recent_stuff_sorted %}
+	<li>
+		<div class ="row-block">
+			<div class="row-text">
+				<h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+				<div class="post-meta">{{ item.collection | capitalize }} | {{ item.date | date: "%Y %b %d"}} | <em>#{{ item.tags | first }}</em></div>
+				<p>{{ item.summary }}</p>
+			</div>
+			<div class="row-thumb">
+				<img src="{{ item.thumbnail | default: '/assets/images/eric_viki.png' }}">
+			</div>
+		</div>
+	</li>
+{% endfor %}
+</ul>
+
+<!-- deprecating old "what I've been up to"
 <hr>
 
 ## What I've been up to
@@ -50,6 +96,9 @@ Currently using this site to practice [learning in public](https://www.swyx.io/l
 	</div>
 </div>
 {% endif %}
+
+-->
+
 <hr>
 
 ## Some other fun stuff I've done

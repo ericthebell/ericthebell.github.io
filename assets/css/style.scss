@@ -272,7 +272,7 @@ a:visited {
 }
 
 .row-text {
-  /* flex-basis: 66%; This will take up to 2/3 of the width */
+  flex-basis: 80%; /* This will take up to 2/3 of the width */
 }
 
 .row-thumb {
