@@ -10,12 +10,14 @@ layout: tufte
 
 <hr>
 
-<label for="mn-fig0" class="margin-toggle">&#8853;</label>
-  <input type="checkbox" id="mn-fig0" class="margin-toggle"/>
-  <span class="marginnote">
-  <img src="{{ page.logo | default: '/assets/images/eric_viki.png' }}" alt="{{ page.title }} logo">
-  {{ page.tagline }}
-</span>
+<p>
+  <label for="mn-fig0" class="margin-toggle">&#8853;</label>
+    <input type="checkbox" id="mn-fig0" class="margin-toggle"/>
+    <span class="marginnote">
+    <img src="{{ page.logo | default: '/assets/images/eric_viki.png' }}" alt="{{ page.title }} logo">
+    {{ page.tagline }}
+  </span>
+</p>
 
 {{ content }}
 
