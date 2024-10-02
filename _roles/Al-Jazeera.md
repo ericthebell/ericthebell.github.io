@@ -14,27 +14,46 @@ summary: Creating a multi-year vision for a controversial mobile app, while prov
 industry: News media
 ---
 
-Al Jazeera's mission is to be the voice of the voiceless. The digital team managed the publishing platform and web and mobile front ends for multiple editorial bureaus. My focus was to evaluate the state of the mobile app, then to create and guide implementation of a vision to address its biggest opportunities, while mentoring the product design team.
+Al Jazeera's mission is to give voice to the voiceless
+. The digital team managed the publishing platform and web and mobile front ends for multiple editorial bureaus. My focus was to evaluate the state of the mobile app, then to create and guide implementation of a vision to address its biggest opportunities, while mentoring the product design team.
 
-### Voice of the voiceless
+### Voice to the voiceless
 
-Al Jazeera's digital team works to support mustiple edutorial bureaus working ocress four language regions. Within the digital team, I came in to support the product design team, which had lacked design leadership for some time. I joined the mobile team to focus on high priority needs with the app, while providing guidance for individual designers fragmented across other teams.
+Al Jazeera's digital team works to support multiple editorial bureaus working across four language regions. The mobile app specifically had taken a controversial new direction and needed a holistic vision. And the design team was fragmented across product teams, without its own leadership.
+
+### Team & role
+
+**Lead Product Designer**. I joined the mobile team to focus on high priority needs within the app, while providing guidance for individual designers fragmented across other teams.
+
+<img src="/assets/images/AJ-team.png">
 
 ### Approach
 
 **Mobile baseline evaulation and scoping**. Conducting a thorough review of the mobile experience, including heuristic evaluation, user flow analytics, stakeholder interviews. Identified biggest impact opportunities, and scoped high priority project areas and strategic approaches for each.
 
+<figure>
+	<label for="mn-heuristic" class="margin-toggle">⊕</label>
+	<input type="checkbox" id="mn-heuristic" class="margin-toggle">
+	<span class="marginnote">Cross-platform heuristic evaluation</span>
+	<img src="/assets/images/AJ-heuristics.jpg" alt="Heuristic evaluation">
+</figure>
+
+**Mobile overhaul and design system**. Built out a Figma design system from scratch, both to align mobile app branding and style with web, and as a design team collaboration exercise.
+
+<figure>
+	<label for="mn-comparison" class="margin-toggle">⊕</label>
+	<input type="checkbox" id="mn-comparison" class="margin-toggle">
+	<span class="marginnote">Mobile app before and after</span>
+	<img src="/assets/images/AJ-UMP-comparison.png" alt="Al Jazeera mobile before after">
+</figure>
+
 <!--
-[eval overview] So much visual synthesis.
-
-**Mobile overhaul and design system**. 
-
 [design system]
 [before after]
 <figure>
-	<label for="mn-figma-slides" class="margin-toggle">⊕</label>
-	<input type="checkbox" id="mn-figma-slides" class="margin-toggle">
-	<span class="marginnote">A slicker PowerPoint.</span>
+	<label for="mn-comparison" class="margin-toggle">⊕</label>
+	<input type="checkbox" id="mn-comparison" class="margin-toggle">
+	<span class="marginnote">note</span>
 	<img src="/assets/images/AJ-UMP-comparison.png" alt="Al Jazeera mobile before after">
 </figure>
 
@@ -46,7 +65,7 @@ Al Jazeera's digital team works to support mustiple edutorial bureaus working oc
 </span>
 -->
 
-**Priority projects execution**. Executed on top slice MVPs of highest priority projects. Including building a Figma design system from scratch to align mobile app branding and style with web, filling functionality gaps between mobile and web, addressing critical mobile usability issues, and optimizing the onboarding experience.  
+**Priority projects execution**. Executed on top slice MVPs of remaining highest priority projects from original synthesis. Including filling functionality gaps between mobile and web, addressing critical mobile usability issues, and optimizing the onboarding experience.  
 
 <!-- [fire list] -->
 
@@ -60,8 +79,3 @@ Al Jazeera's digital team works to support mustiple edutorial bureaus working oc
 - Designed and supported implementation of the top slice of high priority projects on a short timeline.
 - Introduced design team processes for collaboration and alignment, and paired with product managers and engineers across teams to practice design thinking.
 
-### Team & role
-
-**Lead Product Designer**. Brought in to up-level the design team while focusing on high-priority mobile team needs.
-
-<img src="/assets/images/aj-team.png">
