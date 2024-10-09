@@ -2,7 +2,7 @@
 title: On travel packing
 layout: post
 drafting: true
-date: '2024-10-10'
+date: '2024-10-09'
 modified_date: null
 author: Eric Bell
 summary: Travel packing tips for minimalist packing, with some list examples.
@@ -68,6 +68,7 @@ More comments on <a href="https://www.youtube.com/watch?v=BHv-6U9eeWY&t=1667s">m
 **Hand-washing**. Getting used to washing things in the sink really changed the scale of what I need to pack. While I do still generally pack a week of clothes (and count on a laundry machine at my destination), I discovered that I really only need three sets. Wear one, wash another, let the third dry. With wool and synthetics, most things air dry in a few hours. Some months I exclusively washed everything in the sink. It shifted my mindset from "packing everything to last for X days" to "a rotating wardrobe for an indefinite period of time."
 
 **Solid toiletries**. Having to keep a separate plastic bag for liquid toiletries really messes up the clean geometry of my suitcase, so I was motivated to remove the need for it at airport security. I gradually switched out all of my liquid toiletries, specifically toothpaste tablets, a conditioner bar (I haven't used shampoo in years), and a shaving soap stick. YMMV.
+
 ## Bags and lists
 
 My setup is primarily based around a suitcase and a backpack. These are the size constraints I focused on.
