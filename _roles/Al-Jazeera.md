@@ -49,7 +49,6 @@ Al Jazeera's digital team works to support multiple editorial bureaus working ac
 
 <!--
 [design system]
-[before after]
 <figure>
 	<label for="mn-comparison" class="margin-toggle">⊕</label>
 	<input type="checkbox" id="mn-comparison" class="margin-toggle">

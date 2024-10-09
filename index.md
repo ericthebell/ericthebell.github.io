@@ -39,7 +39,7 @@ Currently I'm using this site to practice [learning in public](https://www.swyx.
 {% if last_role %}
   {% assign recent_stuff = recent_stuff | push: last_role %}
 {% endif %}
-{% if last_post %}
+{% if last_post and last_post.drafting != true %}
   {% assign recent_stuff = recent_stuff | push: last_post %}
 {% endif %}
 
