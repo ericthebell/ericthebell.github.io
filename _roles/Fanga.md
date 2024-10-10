@@ -1,7 +1,7 @@
 ---
 layout: role
 company: Rakuten Manga
-logo: /assets/images/logo-fanga.png
+logo: /assets/images/fanga-logo.png
 thumbnail: /assets/images/fanga-paneling.jpg
 tagline: Comics with a global following, powered by fans
 position: Director of Product Design
@@ -10,9 +10,6 @@ date: 2016-03-31
 dateshow: 2015-2016
 tags: startup spinoff consumer comics crowdsourcing translation strategy web mobile CMS analytics research showcase
 ---
-
-Viki & Rakuten Manga | Dir PD SF • Singapore • France '13-'16
-Fan-translation platforms for global TV & comics. Directing, coordinating, designing UX strategy across external & internal product teams. Formed & led design team. #strategy #web #mobile #CMS #analytics #research
 
 ### Industry
 
@@ -36,23 +33,30 @@ I collaborated across a trans-Atlantic team to flesh out a product vision and ro
 
 Our team was split between Viki's office in San Francisco, where I was based with our CEO and community manager, and Aquafadas' in Montpellier, France, where our CTO, PM, and engineering teams, with a content acquisition team in Tokyo.
 
+<label for="mn-paneling" class="margin-toggle">⊕</label>
+<input type="checkbox" id="mn-paneling" class="margin-toggle"/>
+<span class="marginnote">
+	<img src="/assets/images/fanga-paneling.jpg" alt="Panels and bubbles">
+	Marking the panels and speech bubbles</span>
+<label for="mn-translation" class="margin-toggle">⊕</label>
+<input type="checkbox" id="mn-translation" class="margin-toggle"/>
+<span class="marginnote">
+	<img src="/assets/images/fanga-translation.jpg" alt="Translation interface">
+	Translating and styling</span>
 ### Outcome
 
 Launched a beta platform with test content and an budding fan community, began iterating on the platform with community feedback. Due to parent company's unrealistic revenue timelines and content priorities, the initiative was prematurely canceled.
 
 ## Project areas
 
-Product Strategy
-High level product vision, roadmap, and prioritization.
-strategic approach + product areas
-primary scenarios + roadmap phasing + challenges functionality
+**Product Strategy**. High level product vision, roadmap, and prioritization.
 
-Translation Platform
-Translation workflow (bubbles and lettering) prototyping and iteration.
+<!-- strategic approach + product areas
+primary scenarios + roadmap phasing + challenges functionality -->
 
-Catalog & Library
-Content organization and navigation for translator, reader, and paid content.
+**Translation Platform**. Translation workflow (bubbles and lettering) prototyping and iteration.
 
-Reading Experience
-Dynamic panel grouping behavior guidance, reader interactions.
+**Catalog & Library**. Content organization and navigation for translator, reader, and paid content.
+
+**Reading Experience**. Dynamic panel grouping behavior guidance, reader interactions.
 

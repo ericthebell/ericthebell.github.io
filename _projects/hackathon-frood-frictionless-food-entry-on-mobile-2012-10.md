@@ -3,6 +3,7 @@ layout: post
 title: 'Frood: frictionless food entry on mobile'
 company: Side projects
 date: '2012-10-21T11:07:00-04:00'
+thumbnail: /assets/images/hack-frood-screen.png
 tags:
 - hackathon
 - one-shot

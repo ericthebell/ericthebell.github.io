@@ -8,7 +8,6 @@ tags:
 - hackathon
 - oneshot
 - portfolio
-- showcase
 tumblr_url: https://ericthebell.info/post/65634212051/wtf-denied-explaining-benefits-better
 ---
 A project at the [Health 2.0 Code-a-thon: Power to the Patient](http://www.health2con.com/devchallenge/health-2-0s-sf-code-a-thon-12/). Winner of the EOB Redesign Challenge, 2nd place overall.

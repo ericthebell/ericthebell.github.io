@@ -104,12 +104,13 @@ Currently I'm using this site to practice [learning in public](https://www.swyx.
 ## Some other fun stuff I've done
 
 <!-- Merge collections into one -->
-{% assign all_posts = site.projects | concat: site.roles | concat: site.talks %}
+{% assign all_posts = site.projects | concat: site.roles | concat: site.talks | concat: site.posts %}
 
 <!-- Initialize the showcase entries -->
 {% assign showcase_project = nil %}
 {% assign showcase_role = nil %}
 {% assign showcase_talk = nil %}
+{% assign showcase_post = nil %}
 
 <!-- Loop through all the posts -->
 <!-- {% for post in all_posts %}
@@ -138,6 +139,10 @@ Currently I'm using this site to practice [learning in public](https://www.swyx.
       {% if showcase_talk == nil or post.date > showcase_talk.date %}
         {% assign showcase_talk = post %}
       {% endif %}
+    {% elsif post.collection == 'posts' %}
+      {% if showcase_post == nil or post.date > showcase_post.date %}
+        {% assign showcase_post = post %}
+      {% endif %}
     {% endif %}
   {% endif %}
 {% endfor %}
@@ -152,6 +157,9 @@ Currently I'm using this site to practice [learning in public](https://www.swyx.
 {% endif %}
 {% if showcase_talk %}
   {% assign showcase_items = showcase_items | push: showcase_talk %}
+{% endif %}
+{% if showcase_post %}
+  {% assign showcase_items = showcase_items | push: showcase_post %}
 {% endif %}
 
 <!-- Sort the showcase items by date (newest first) -->
