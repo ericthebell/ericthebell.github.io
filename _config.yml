@@ -59,7 +59,7 @@ minima:
     - { platform: mastodon,  user_url: "https://indieweb.social/@ericthebell" }
     - { platform: twitter, user_url: "https://twitter.com/ericthebell" }
     - { platform: github, user_url: "https://github.com/ericthebell" }
-    - { platform: pdf, user_url: "assets/EricBell_Resume_2024.pdf"}
+    - { platform: pdf, user_url: "https://ericthebell.com/assets/EricBell_Resume_2024.pdf" }
     #twitter: ericthebell
     #github: ericthebell
     #instagram: ericthebell

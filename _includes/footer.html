@@ -5,19 +5,19 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name"><p>{{ site.author.name | escape }}</p><li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        {% if site.copyright %}
-          <li><a href="{{ site.cc_license }}">{{ site.copyright }}</a></li>
-        {% endif %}
-        </ul>
-      {%- endif %}
+        {%- if site.author %}
+          <ul class="contact-list">
+            {% if site.author.name -%}
+              <li class="p-name"><p>{{ site.author.name | escape }}</p><li>
+            {% endif -%}
+            {% if site.author.email -%}
+              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            {%- endif %}
+          {% if site.copyright %}
+            <li><a href="{{ site.cc_license }}">{{ site.copyright }}</a></li>
+          {% endif %}
+          </ul>
+        {%- endif %}
         <span class="feed-subscribe">
           <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
             <svg class="svg-icon orange">
@@ -27,7 +27,7 @@
         </span>
       </div>
       <div class="footer-col">
-        <p>{{ site.description }} <a href="/assets/EricBell_Resume_2024.pdf">Resume (PDF)</p>
+        <p>{{ site.description }} Schedule a <a href="https://cal.com/ericthebell/office-hours">Coffee chat</a>.</p>
       </div>
     </div>
 
