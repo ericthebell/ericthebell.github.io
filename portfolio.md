@@ -9,8 +9,8 @@ url: /portfolio
 
 {% for role in site.roles reversed %}
   <h2><a href="{{ role.url }}">{{ role.company }}</a></h2>
-  <h3>{{ role.position }}</h3>
-  <p>{{ role.dateshow }}<br/>
-  {{ role.excerpt | markdownify }}</p>
+  <div class="post-meta">{{ role.dateshow }}</div>
+  <h4>{{ role.position }}</h4>
+  <p>{{ role.excerpt | markdownify }}</p>
 {% endfor %}
 

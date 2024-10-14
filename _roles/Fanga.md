@@ -11,8 +11,6 @@ dateshow: 2015-2016
 tags: startup spinoff consumer comics crowdsourcing translation strategy web mobile CMS analytics research showcase
 ---
 
-### Industry
-
 Comics and graphic novels are created around the world, with a global fanbase. The most popular series may be translated into a few populous languages, but most content ends up distributed through scanlation groups who pirate it and spend laborious hours in Photoshop creating one translation. It is available illegally at best, and in a couple languages at most.
 
 Viki established itself by licensing global video content for international audiences, and building accessible tools for everyday fans to legally subtitle and share the content they loved. Some of the most popular content would be translated into a dozen languages within a couple hours of its release.

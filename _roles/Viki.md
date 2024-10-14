@@ -11,11 +11,6 @@ dateshow: 2013-2015
 tags: startup consumer streaming crowdsourcing translation showcase
 ---
 
-Viki & Rakuten Manga | Dir PD SF • Singapore • France '13-'16
-Fan-translation platforms for global TV & comics. Directing, coordinating, designing UX strategy across external & internal product teams. Formed & led design team. #strategy #web #mobile #CMS #analytics #research
-
-### Industry
-
 In a streaming world where most international content is still pirated by fans and translated and subtitled by volunteers because a lack of overseas licensing, Viki created a two-pronged model of content arbitrage.
 
 First, Viki built subtitling tools accessible to casual fans without specialized software, and created a space for them to coordinate around favorite content. Second, Viki paid to legally license international content outside its traditional markets, making those fan- translated accessible to audiences around the world.

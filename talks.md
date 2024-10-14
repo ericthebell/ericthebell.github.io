@@ -8,9 +8,17 @@ header: Speaking & Events
 # Talks I've given here and there
 
 {% for talk in site.talks reversed %}
-  <h3><a href="{{ talk.url }}">{{ talk.title }}</a></h3>
-  <p>{{ talk.date | date: "%Y %b" }}<br/>
-  {{ talk.summary | markdownify }}</p>
-  <div class="thumbnail">{{ page.thumbnail }}</div>
+  <h3><a class="post-link" href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></h3>
+  <div class ="row-block">
+    <div class="row-text">
+      <div class="post-meta">{{ talk.date | date: "%Y %b"}}</div>
+      <p>{{ talk.summary | markdownify }}</p>
+    </div>
+    {% if talk.thumbnail %}
+    <div class="row-thumb">
+        <img src="{{ talk.thumbnail }}" alt="{{ talk.title }}">
+    </div>
+    {% endif %}
+  </div>
 {% endfor %}
 

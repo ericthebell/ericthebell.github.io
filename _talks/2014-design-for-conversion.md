@@ -7,7 +7,7 @@ formal:
 context: Speaker for an event hosted by Orange Hive accelerator in Singapore.
 date: 2014-03-01
 dateshow: 2014 Mar
-thumbnail: [image]
+thumbnail: 
 embed: 
 label: test-label
 link: test-link
