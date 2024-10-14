@@ -3,7 +3,7 @@ title: On travel packing
 layout: post
 drafting: 
 date: '2024-10-09'
-modified_date: null
+modified_date: '2024-10-12'
 author: Eric Bell
 summary: Packing tips for minimalist travel, with some examples and lists.
 thumbnail: "/assets/images/blog/packing-cubes.jpg"
@@ -129,4 +129,4 @@ There are endless resources and videos on these topics, and if you have the stom
 - [*Pack Hacker's digital nomad packing list*](https://packhacker.com/packing-list/digital-nomad/). "Digital nomad"-oriented lists tend to be full of newer and niftier things, but there’s no real need to get specialized expensive stuff (except maybe wool). It’s more about the mindset and thinking through your needs. They have a budget travel packing list, too.
 - [*A couple describes their list and lessons*](https://youtu.be/M4WxFM2uV2U). Considerations for a two-person approach to packing for indefinite travel.
 
-Thanks for reading, and I hope you found something useful.
+My own lessons and explorations will continue to evolve. Even while writing this, I noticed various sutble changes I've made since making the annotated packing photos, and I am still perennially tempted by the one-bag travel route. Happy trails.
