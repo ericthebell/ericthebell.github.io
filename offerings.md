@@ -39,7 +39,20 @@ There are also some good reasons why my experiences may not be an automatic fit 
 
 ## Services offered
 
-### Holistic design projects
+### Strategic scoping workshop
+
+_Project inception, scoping, prioritization._
+
+**What is it**. A one-day workshop to align on a project's goals, scope, and outline, modeled on [Pivotal Labs' project inception](https://agilecoffee.com/using-an-inception-to-kick-off-a-project/).
+
+**Approach**. Bring your team together to share current goals, anti-goals, research knowledge, existing ideas, and key milestones. Use the workshop to synthesize a shared high level vision across your stakeholders.
+
+**Outcome**. A story map (walking skeleton) of your project roadmap, along with team alignment on its priority and scope. 
+*Optional:* a [backlog of defined experiments](https://ericthebell.com/blog/experiment-tracking-dashboard/) to (in)validate the biggest risks to your premise or product.
+
+<img src="/assets/images/offerings-inception.png">
+
+### Holistic design project
 
 _Digital products, service blueprinting, and information architecture._
 
@@ -50,7 +63,7 @@ _Digital products, service blueprinting, and information architecture._
 **Outcome**. A clear vision of the product’s direction and next steps, and alignment within the team on the goals and approaches to get there. Direct involvement from planning through implementation, as appropriate.
 
 
-### Design team coaching.
+### Design team coaching
 
 **What is it**. Working directly with your team to up-level their processes and team dynamic.
 
@@ -59,7 +72,7 @@ _Digital products, service blueprinting, and information architecture._
 **Outcome**. You will get an evaluation of the team and strategic recommendations to support team development. Your team will get hands-on practice with different design processes and mentorship.
 
 
-### **Executive team education**.
+### **Executive team education**
 
 **What it is**. Understanding product design, it’s range of skills and competencies, overall process.
 
