@@ -3,7 +3,7 @@ title: Experiment tracking dashboard
 layout: post
 drafting: 
 date: '2024-9-27'
-modified_date: null
+modified_date: 2024-11-24
 author: Eric Bell
 summary: A Figma Slides template for tracking your lean startup experiments.
 thumbnail: "/assets/images/experiments-template.jpg"
@@ -17,7 +17,9 @@ tags:
 company: HyeTech
 ---
 
-An accessibly editable template for tracking your lean startup experiments, using Figma Slides. Go ahead and [check it out](https://www.figma.com/slides/Hv3GJxpUCt0NU8qFs6dMMF/Experiment-tracking-dashboard-%5Btemplate%5D?node-id=1-26&t=Jv8o14Xs2BjpbGRw-1), or read on for the story.
+*Update:* Figma enabled publishing of Slides to the Community library, links now point there.
+
+An accessibly editable template for tracking your lean startup experiments, using Figma Slides. Go ahead and [check it out](https://www.figma.com/community/file/1442596058907558548/experiment-tracking-dashboard), or read on for the story.
 
 <figure class="fullwidth">
 		<label for="mn-concept" class="margin-toggle">⊕</label>
@@ -113,10 +115,10 @@ In our case, this means that if we have a particularly large amount of content f
 
 ## Template notes
 
-<a href="https://www.figma.com/slides/Hv3GJxpUCt0NU8qFs6dMMF/Experiment-tracking-dashboard-%5Btemplate%5D?node-id=1-26&t=Jv8o14Xs2BjpbGRw-1">Give it a whirl</a> if it looks useful for your own needs. Some notes:
+<a href="https://www.figma.com/community/file/1442596058907558548/experiment-tracking-dashboard">Give it a whirl</a> if it looks useful for your own needs. Some notes:
 - Figma doesn't yet support components in Slides, so for now there isn't a way to edit the template across all slides. That said, besides the two-slide version and the Appendix examples, you should be able to tweak the primary template to your needs without too much hassle.  
-- At the moment it appears only Figma employees and hand-picked designers can publish their contributions to the Figma Community, so this is simply a public link to my template file.
-- Feedback welcome as comments directly <a href="https://www.figma.com/slides/Hv3GJxpUCt0NU8qFs6dMMF/Experiment-tracking-dashboard-%5Btemplate%5D?node-id=1-26&t=Jv8o14Xs2BjpbGRw-1">in the file</a>!<label for="sn-8" class="margin-toggle sidenote-number"></label>
+- ~~At the moment it appears only Figma employees and hand-picked designers can publish their contributions to the Figma Community, so this is simply a public link to my template file.~~ Now added to the Community Library!
+- Feedback welcome as comments directly <a href="https://www.figma.com/slides/Hv3GJxpUCt0NU8qFs6dMMF/Experiment-tracking-dashboard-%5Btemplate%5D?node-id=1-26&t=Jv8o14Xs2BjpbGRw-1">in the file</a> or on <a href="https://www.figma.com/community/file/1442596058907558548/experiment-tracking-dashboard">the Community library page</a>.<label for="sn-8" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-8"	class="margin-toggle"/>
 <span class="sidenote"><a href="https://www.swyx.io/learn-in-public/">Learning in public</a>, something I am also practicing with this site.</span>
 You can try messaging me on other platforms, but commenting directly is the most contextually helpful.

@@ -47,10 +47,15 @@ _Project inception, scoping, prioritization._
 
 **Approach**. Bring your team together to share current goals, anti-goals, research knowledge, existing ideas, and key milestones. Use the workshop to synthesize a shared high level vision across your stakeholders.
 
-**Outcome**. A story map (walking skeleton) of your project roadmap, along with team alignment on its priority and scope. 
-*Optional:* a [backlog of defined experiments](https://ericthebell.com/blog/experiment-tracking-dashboard/) to (in)validate the biggest risks to your premise or product.
+**Outcome**. A story map (walking skeleton) of your project roadmap, along with team alignment on its priority and scope. *Optional:* a [backlog of defined experiments](https://ericthebell.com/blog/experiment-tracking-dashboard/) to (in)validate the biggest risks to your premise or product.
 
 <img src="/assets/images/offerings-inception.png">
+
+<!--
+Other workshop options include
+- *Experiment planning:* a [backlog of defined experiments](https://ericthebell.com/blog/experiment-tracking-dashboard/) to (in)validate the biggest risks to your premise or product.
+- *Pre-mortem exercise:* 
+-->
 
 ### Holistic design project
 
