@@ -1,8 +1,8 @@
 ---
 title: On task tracking
 layout: post
-drafting: yes
-date: 2024-11-1
+drafting: true
+date: 2024-10-1
 modified_date: 
 author: Eric Bell
 summary:  My journey of learning how to organize my own to-do lists.
