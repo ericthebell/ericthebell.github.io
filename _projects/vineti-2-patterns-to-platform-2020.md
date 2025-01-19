@@ -2,7 +2,7 @@
 layout: project
 title: End-to-end platform patterns
 company: Vineti
-date: 2018-06-01
+date: 2020-06-01
 thumbnail: /assets/images/vineti-mvp-blueprint.png
 team: 
 summary: Extending platform functionality and establishing configurable patterns.
@@ -11,10 +11,10 @@ impact: Expanded coverage to any autologous customer, launched a reusable baseli
 tags: project startup enterprise healthcare platform configuration
 ---
 
-**Project:**
+### Project
 
 Extending platform functionality design for end-to-end flexibility for second pharma customer. From there, establishing end-to-end best practice solutions and streamlining configuration processes.
 
-**Impact:**
+### Impact
 
 Expanded platform to cover any autologous clinical customer, launched a reusable baseline offering for faster clinical customer implementation, and roadmapped releasing those tools to implementation partners.

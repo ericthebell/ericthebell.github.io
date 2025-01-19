@@ -17,19 +17,21 @@ industry: News media
 Al Jazeera's mission is to give voice to the voiceless
 . The digital team managed the publishing platform and web and mobile front ends for multiple editorial bureaus. My focus was to evaluate the state of the mobile app, then to create and guide implementation of a vision to address its biggest opportunities, while mentoring the product design team.
 
-### Voice to the voiceless
+## Voice to the voiceless
 
 Al Jazeera's digital team works to support multiple editorial bureaus working across four language regions. The mobile app specifically had taken a controversial new direction and needed a holistic vision. And the design team was fragmented across product teams, without its own leadership.
 
-### Team & role
+## Team & role
 
 **Lead Product Designer**. I joined the mobile team to focus on high priority needs within the app, while providing guidance for individual designers fragmented across other teams.
 
 <img src="/assets/images/AJ-team.png">
 
-### Approach
+## Approach
 
-**Mobile baseline evaulation and scoping**. Conducting a thorough review of the mobile experience, including heuristic evaluation, user flow analytics, stakeholder interviews. Identified biggest impact opportunities, and scoped high priority project areas and strategic approaches for each.
+### Mobile baseline evaulation and scoping
+
+Conducting a thorough review of the mobile experience, including heuristic evaluation, user flow analytics, stakeholder interviews. Identified biggest impact opportunities, and scoped high priority project areas and strategic approaches for each.
 
 <figure>
 	<label for="mn-heuristic" class="margin-toggle">⊕</label>

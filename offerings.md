@@ -43,7 +43,7 @@ There are also some good reasons why my experiences may not be an automatic fit 
 
 _Project inception, scoping, prioritization._
 
-**What is it**. A one-day workshop to align on a project's goals, scope, and outline, modeled on [Pivotal Labs' project inception](https://agilecoffee.com/using-an-inception-to-kick-off-a-project/).
+**What is it**. A one-day workshop designed to align your team on project goals, scope, and priorities, resulting in a comprehensive project roadmap. Modeled on [Pivotal Labs' project inception](https://agilecoffee.com/using-an-inception-to-kick-off-a-project/).
 
 **Approach**. Bring your team together to share current goals, anti-goals, research knowledge, existing ideas, and key milestones. Use the workshop to synthesize a shared high level vision across your stakeholders.
 
@@ -61,7 +61,7 @@ Other workshop options include
 
 _Digital products, service blueprinting, and information architecture._
 
-**What is it**. Soup-to-nuts product and service design, taking business goals and customer needs, and facilitating alignment across stakeholder groups through research and iteration towards final delivery. A holistic and comprehensive approach, from strategic direction through execution.
+**What is it**. Soup-to-nuts product and service design, from initial concept through to final delivery, ensuring alignment with business objectives and customer needs. A holistic and comprehensive approach, from strategic direction through execution.
 
 **Approach**. First, we talk about your needs. Then, I work directly with your existing team to practice hands-on research, ruthless prioritization and scoping, and iteration towards delivery.
 
@@ -70,7 +70,7 @@ _Digital products, service blueprinting, and information architecture._
 
 ### Design team coaching
 
-**What is it**. Working directly with your team to up-level their processes and team dynamic.
+**What is it**. Collaborative mentorship to enhance your design team's processes and dynamics, fostering growth and efficiency.
 
 **Approach**. I will engage with your team by collaborating with them on their work, providing mentorship along the way.
 
@@ -79,7 +79,7 @@ _Digital products, service blueprinting, and information architecture._
 
 ### **Executive team education**
 
-**What it is**. Understanding product design, it’s range of skills and competencies, overall process.
+**What it is**. Educational sessions for leadership to deepen understanding of product design roles, processes, and integration within the organization.
 
 **Approach**. Presentation to leadership about design role and processes. Get your hands dirty together by participating in select team activities. Join regular team share-outs
 

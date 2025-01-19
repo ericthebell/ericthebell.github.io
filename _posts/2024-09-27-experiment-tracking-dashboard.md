@@ -68,7 +68,7 @@ as well as comments I remembered [Javid Jamae](https://www.linkedin.com/in/jamae
 
 ## First iteration & learnings
 
-My first iteration was a Miro board that captured a general template for an experiment card, along with a path for experiments to move from a prioritized backlog to.
+My first iteration was a Miro board that captured a general template for an experiment card, along with a path for experiments to move from a prioritized backlog into an active phase.
 
 <figure>
 	<label for="mn-miro" class="margin-toggle">⊕</label>
