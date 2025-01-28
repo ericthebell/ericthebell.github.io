@@ -12,6 +12,7 @@ excerpt: Hire me to collaboratively define and tackle your top product prioritie
 
 ## Let’s work together
 
+<!-- Eric the Bell Consulting offers hand-on collaboration and training to help you define and build software products and services. -->
 Hire me to collaboratively define and tackle your top product priorities, visually align stakeholders, and up-level your team along the way. 
 
 Together we’ll clarify business goals, research and plan out a viable path to implementation, and collaborate on team processes to get this and future projects done.
