@@ -29,9 +29,9 @@ Al Jazeera's digital team works to support multiple editorial bureaus working ac
 
 ## Approach
 
-### Mobile baseline evaulation and scoping
+### Mobile baseline evaulation & scoping
 
-Conducting a thorough review of the mobile experience, including heuristic evaluation, user flow analytics, stakeholder interviews. Identified biggest impact opportunities, and scoped high priority project areas and strategic approaches for each.
+Conducting a thorough review of the mobile experience, including heuristic evaluation, user flow analytics, stakeholder interviews. Identified biggest impact opportunities, crossed with gaps in the existing roadmap.
 
 <figure>
 	<label for="mn-heuristic" class="margin-toggle">⊕</label>
@@ -40,7 +40,17 @@ Conducting a thorough review of the mobile experience, including heuristic evalu
 	<img src="/assets/images/AJ-heuristics.jpg" alt="Heuristic evaluation">
 </figure>
 
-**Mobile overhaul and design system**. Built out a Figma design system from scratch, both to align mobile app branding and style with web, and as a design team collaboration exercise.
+### Product roadmap scoping
+
+Fleshing out each high priority project area and its strategic approach.
+- Problem definition and context
+- Strategic approach to each solution
+- Which stakeholders it supports
+- Conceptual solution examples and scoping
+
+### Mobile overhaul and design system
+
+Built out a Figma design system from scratch, both to align mobile app branding and style with web, and as a design team collaboration exercise.
 
 <figure>
 	<label for="mn-comparison" class="margin-toggle">⊕</label>

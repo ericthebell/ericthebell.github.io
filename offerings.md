@@ -78,12 +78,12 @@ _Digital products, service blueprinting, and information architecture._
 **Outcome**. You will get an evaluation of the team and strategic recommendations to support team development. Your team will get hands-on practice with different design processes and mentorship.
 
 
-### **Executive team education**
+### **Executive team design support**
 
-**What it is**. Educational sessions for leadership to deepen understanding of product design roles, processes, and integration within the organization.
+**What it is**. Sessions with leadership to deepen understanding of product design roles, processes, and integration within the organization.
 
-**Approach**. Presentation to leadership about design role and processes. Get your hands dirty together by participating in select team activities. Join regular team share-outs
+**Approach**. Demonstrations with leadership about design role and processes. Get your hands dirty together by participating in select team activities. Join regular team share-outs. Craft a hiring document to recruit design team members.
 
-**Outcome**. Alignment between leadership and design team about
+**Outcome**. Alignment between leadership and design team about design team's role, skillsets, and hiring approach.
 
 ## [Let’s talk.](https://cal.com/ericthebell/office-hours)
