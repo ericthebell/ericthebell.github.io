@@ -117,6 +117,10 @@ p {
   vertical-align: baseline;
 }
 
+strong, b {
+  font-weight: 600; /* or try 800 or 900 for even heavier */
+}
+
 .tufte article > div > p {
   width: 55%;
 }

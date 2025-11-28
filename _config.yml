@@ -54,12 +54,24 @@ minima:
   skin: classic
   date_format: "%Y %b %d"
   social_links:
-    - { platform: linkedin, user_url: "https://linkedin.com/in/ericthebell" }
-    - { platform: instagram, user_url: "https://instagram.com/ericthebell" }
-    - { platform: mastodon,  user_url: "https://indieweb.social/@ericthebell" }
-    - { platform: twitter, user_url: "https://twitter.com/ericthebell" }
-    - { platform: github, user_url: "https://github.com/ericthebell" }
-    - { platform: pdf, user_url: "https://ericthebell.com/assets/EricBell_Resume_2024.pdf" }
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://linkedin.com/in/ericthebell"
+    - title: Instagram
+      icon: instagram
+      url: "https://instagram.com/ericthebell"
+    - title: Mastodon
+      icon: mastodon
+      url: "https://indieweb.social/@ericthebell"
+    - title: Twitter
+      icon: twitter
+      url: "https://twitter.com/ericthebell"
+    - title: GitHub
+      icon: github
+      url: "https://github.com/ericthebell"
+    - title: Resume
+      icon: file-pdf
+      url: "https://ericthebell.com/assets/EricBell_Resume_2024.pdf"
     #twitter: ericthebell
     #github: ericthebell
     #instagram: ericthebell
