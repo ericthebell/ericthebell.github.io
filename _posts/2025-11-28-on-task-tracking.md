@@ -44,7 +44,7 @@ The GTD approach provided a pragmatic mental framework for capturing, organizing
 
 Having a method is great, but where to actually put everything? From paper notebooks and bullet journals to a parade of software and apps, I spent years iterating through tools trying to find the right balance of structure and flexibility that works for me.
 
-In high school it was paper planners, class handouts, and noticing that noets scrawled in red ink stayed legible on my hand longer than blue ink. In college it was a desktop of digital sticky notes, a binder for each semester, and a paper filing system. By grad school I had finally succumbed to my first cell phone and began switching from paper planners to digital calendars. Soon I could access notes and tasks from multiple devices, and eventually my phone was key.
+In high school it was paper planners, class handouts, and noticing that notes scrawled in red ink stayed legible on my hand longer than blue ink. In college it was a desktop of digital sticky notes, a binder for each semester, and a paper filing system. By grad school I had finally succumbed to my first cell phone and began switching from paper planners to digital calendars. Soon I could access notes and tasks from multiple devices, and eventually my phone was key.
 
 *Various tools and their tradeoffs for me:*
 - **OmniFocus**. Structured with GTD in mind, a little too easy to drown in just a few too many layers.
@@ -66,7 +66,7 @@ Ultimately, Trello is what I've come back to for most of my personal project are
 
 For such a long time I repeated a cycle. Getting frustrated with my current broken system, getting inspired to sketch out a new idea and approach, and then getting bogged down making it happen in one big bang rollout.
 
-Eventually I learned more about habit formation, mostly by way of the personal-professional cross-polination that came from designing for it.<label for="sn-nir" class="margin-toggle sidenote-number"></label>
+Eventually I learned more about habit formation, mostly by way of the personal-professional cross-pollination that came from designing for it.<label for="sn-nir" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-nir" class="margin-toggle"/>
 <span class="sidenote">Shoutout to <a href="https://www.nirandfar.com/">Nir Eyal</a>'s talk at a <a href="https://ericthebell.com/projects/hackathon-frood-frictionless-food-entry-on-mobile-2012-10">"healthy habits" hackathon</a> back in the day.</span>
 Reducing hurdles to the intended workflow, making the desired action clear and intuitive, and creating nudges to do the next thing. 
@@ -100,4 +100,4 @@ In my personal use I've found it surprisingly useful. For me, this practice mean
 
 A few coworkers over the years have commented that I'm the most organized person they know. And yet I still feel like an imposter who's struggled most of my life to get a handle on everything I want or need to do. Not to mention living in a world of task management internet forums, or working alongside various levels of managers orchestrating entire teams worth of activity.
 
-Getting here has been such as long slog of adding sustainable habits one brick at a time, with periodic "raze it to the ground!" moments. Making the above visualization of my current organization system felt like a milestone, and prompted this attempt to capture my journey.
+Getting here has been such a long slog of adding sustainable habits one brick at a time, with periodic "raze it to the ground!" moments. Making the above visualization of my current organization system felt like a milestone, and prompted this attempt to capture my journey.
