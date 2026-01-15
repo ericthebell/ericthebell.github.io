@@ -25,17 +25,17 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [x] redirect ericthebell.com
 - [x] second pass CSS styling
 - [x] role pages content & images
-- [ ] why are github actions running twice
-- [ ] projects pages content & images
-- [ ] thumbnails for everything
+- [x] why are github actions running twice (two workflows: jekyll.yml deploys, banner.yml updates WIP banner)
+- [x] projects pages content & images
 - [x] accolades on About page
+- [x] restore blog page and update posts layout
+- [ ] thumbnails for everything
 - [ ] collection pages for `tag`s
 - [ ] better focused expertise & goals
 - [ ] tag filterable portfolio view (projects, talks, roles)
 - [ ] thumbnail grid tiling
 - [ ] rename `portfolio` roles list to `career`
 - [ ] content management for Jekyll collections
-- [ ] restore blog page and update posts layout
 
 ## config
 
