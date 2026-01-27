@@ -2,31 +2,48 @@
 layout: default
 ---
 
-<div class="snippets">
-  <h1 class="snippets-heading">Articles tagged with "{{ page.tag-name }}"</h1>
+<h1>Tagged with #{{ page.tag }}</h1>
 
-  {% for post in site.posts %}
-    {% if post.tags contains page.tag-name %}
-      {% include snippet.html %}
-    {% endif %}
-  {% endfor %}
-</div>
+{% comment %}
+Collect items from all collections that have this tag, then combine and sort
+{% endcomment %}
 
-## Explore all tags
+{% assign tagged_posts = site.posts | where_exp: "item", "item.tags contains page.tag" %}
+{% assign tagged_projects = site.projects | where_exp: "item", "item.tags contains page.tag" %}
+{% assign tagged_talks = site.talks | where_exp: "item", "item.tags contains page.tag" %}
+{% assign tagged_roles = site.roles | where_exp: "item", "item.tags contains page.tag" %}
 
-<div class="all-tags">
-  All tags:
-  <ul>
-    {% assign tags = site.posts | all_tags %}
-    {% for tag in tags %}
-      {% assign tag_slug = tag['name'] | slugify: "raw" %}
-      <li>
-        <a class="tag-link"
-          href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
-          rel="category tag">
-          #{{ tag['name'] }} ({{ tag['count'] }})
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% assign all_tagged = tagged_posts | concat: tagged_projects | concat: tagged_talks | concat: tagged_roles | sort: "date" | reverse %}
+
+<p>{{ all_tagged.size }} item{% if all_tagged.size != 1 %}s{% endif %} found</p>
+
+<ul class="post-list">
+{% for item in all_tagged %}
+  <li>
+    <div class="row-block">
+      <div class="row-text">
+        {% if item.collection == 'roles' %}
+        <h4><a href="{{ item.url }}">{{ item.company }} - {{ item.position }}</a></h4>
+        {% else %}
+        <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+        {% endif %}
+        <div class="post-meta">{{ item.collection | capitalize }} | {{ item.date | date: "%Y %b %d" }}{% if item.tags.first %} | <em>#{{ item.tags | first }}</em>{% endif %}</div>
+        <p>{{ item.summary | default: item.excerpt | strip_html | truncate: 150 }}</p>
+      </div>
+      <div class="row-thumb">
+        <img src="{{ item.thumbnail | default: '/assets/images/eric_viki.png' }}" alt="{{ item.title | default: item.company }}">
+      </div>
+    </div>
+  </li>
+{% endfor %}
+</ul>
+
+<hr>
+
+<h2>Explore all tags</h2>
+
+<p>
+{% for tag_page in site.tags %}
+  <a href="{{ tag_page.url }}"{% if tag_page.tag == page.tag %} style="font-weight: bold;"{% endif %}>#{{ tag_page.tag }}</a>{% unless forloop.last %} &middot; {% endunless %}
+{% endfor %}
+</p>
