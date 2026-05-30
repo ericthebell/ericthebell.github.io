@@ -104,44 +104,5 @@
     {
       "path": "[[workspace]]/_projects"
     }
-  ],
-  "frontMatter.taxonomy.tags": [
-    " ",
-    "O",
-    "S",
-    "V",
-    "a",
-    "b",
-    "c",
-    "e",
-    "enterprise",
-    "g",
-    "h",
-    "healthcare",
-    "i",
-    "k",
-    "l",
-    "m",
-    "n",
-    "o",
-    "p",
-    "r",
-    "s",
-    "startup",
-    "t",
-    "u"
-  ],
-  "frontMatter.taxonomy.categories": [
-    " ",
-    "a",
-    "d",
-    "e",
-    "j",
-    "k",
-    "l",
-    "p",
-    "t",
-    "u",
-    "y"
   ]
 }

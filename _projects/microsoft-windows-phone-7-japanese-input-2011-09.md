@@ -7,7 +7,7 @@ tags:
 - Windows Phone 7
 - interaction design
 - portfolio
-- shohwcase
+- showcase
 tumblr_url: https://ericthebell.info/post/29291133205/windows-phone-7-japanese-input
 ---
 ![image](https://64.media.tumblr.com/655fb9e6b989317ca933dbad61212299/a333336ba2536f5f-e1/s540x810/33eacb44934f2ed4f9ebfafcaadd9a42c3fea560.jpg)
