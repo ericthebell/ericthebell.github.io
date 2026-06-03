@@ -1,18 +1,20 @@
 ---
-layout: default
-title: portfolio
-header: Portfolio
-url: /portfolio
+layout: null
+sitemap: false
+permalink: /portfolio
+title: Portfolio (moved)
 ---
-
-# Some of my past work
-
-***NB**: Due to many NDAs, this section is at best a table of contents of my work, not a proper design portfolio. For a walkthrough of any meaningful details, please reach out about what you might like to try [working together](/offerings) on.*
-
-{% for role in site.roles reversed %}
-  <h2><a href="{{ role.url }}">{{ role.company }}</a></h2>
-  <div class="post-meta">{{ role.dateshow }}</div>
-  <h4>{{ role.position }}</h4>
-  <p>{{ role.excerpt | markdownify }}</p>
-{% endfor %}
-
+<!-- The portfolio/roles list moved to /career. Keep this stub so old links redirect. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <link rel="canonical" href="{{ '/career' | absolute_url }}">
+  <meta http-equiv="refresh" content="0; url={{ '/career' | absolute_url }}">
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <p>This page has moved to <a href="{{ '/career' | absolute_url }}">/career</a>.</p>
+</body>
+</html>

@@ -42,7 +42,7 @@ logo: eric_viki.png
 remote_theme: jekyll/minima
 
 header_pages:
-  - portfolio.md
+  - career.md
   - talks.md
   - offerings.md
   - about.md
