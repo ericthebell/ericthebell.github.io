@@ -30,12 +30,16 @@ Partly inspired by the philosophy of [learning in public](https://www.swyx.io/le
 - [x] accolades on About page
 - [x] restore blog page and update posts layout
 - [ ] thumbnails for everything
-- [ ] collection pages for `tag`s
+- [x] collection pages for `tag`s
+- [x] consolidate duplicate/typo `tag`s (`shohwcase`, `ixd`, `one-shot`, etc.)
 - [ ] better focused expertise & goals
 - [ ] tag filterable portfolio view (projects, talks, roles)
 - [ ] thumbnail grid tiling
-- [ ] rename `portfolio` roles list to `career`
+- [x] rename `portfolio` roles list to `career`
 - [ ] content management for Jekyll collections
+- [ ] add DeepSat to portfolio (role + project pages)
+- [ ] add HyeTech to portfolio (role + project pages)
+- [ ] review and publish blog drafts (DeepSat, HyeTech, AI playground, on thoughts, …)
 
 ## config
 
