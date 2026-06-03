@@ -42,11 +42,11 @@ logo: eric_viki.png
 remote_theme: jekyll/minima
 
 header_pages:
+  - blog.md
   - career.md
   - talks.md
   - offerings.md
   - about.md
-  - blog.md
 
 # 3.0 notes
 # Also, I can specify the skin now!

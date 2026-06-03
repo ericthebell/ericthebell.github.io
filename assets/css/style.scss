@@ -231,6 +231,13 @@ header a{
   padding: 17px 10px 19px 10px;
 }
 
+/* Minima 3.x renders the hamburger glyph via a Font Awesome ::before, but
+   we don't load Font Awesome and use the inline SVG instead — suppress the
+   broken missing-glyph box. */
+.site-nav .menu-icon::before {
+  display: none;
+}
+
 a:hover {
   color: #131313;
   background-color: #fff7a5;
